@@ -253,6 +253,30 @@ function addEmoji(emoji) {
     overview.selectionStart = overview.selectionEnd = start + emoji.length;
 }
 
+// Format overview text automatically
+function autoFormatOverview() {
+    const overview = document.getElementById('overview');
+    const text = overview.value;
+    
+    // Formatting rules
+    let formatted = text;
+    
+    // Add Course Overview heading if missing
+    if (!text.match(/^🎯/)) {
+        formatted = '🎯 **Course Overview**\n\n' + formatted;
+    }
+    
+    // Format bullet points
+    formatted = formatted.replace(/^\s*[-*•]\s*/gm, '• ');
+    
+    // Format section headers
+    formatted = formatted.replace(/^(What I learned|Key Takeaways|Skills Gained|Projects|Conclusion):/gmi, '📚 **$1:**');
+    formatted = formatted.replace(/^(Challenges|Difficulties):/gmi, '⚡ **$1:**');
+    formatted = formatted.replace(/^(Next Steps|Future Plans):/gmi, '🚀 **$1:**');
+    
+    overview.value = formatted;
+}
+
 // Show/hide sections
 function showSection(sectionId) {
     // Hide all sections
@@ -296,4 +320,7 @@ function setupEventListeners() {
     //         // Auto-save logic here
     //     });
     // });
-}
+    
+    // Auto-format overview on blur
+    document.getElementById('overview').addEventListener('blur', autoFormatOverview);
+        }
