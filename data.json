@@ -1,7 +1,7 @@
 [
   {
     "id": "DL-001",
-    "courseName": "ChatGPT Prompt Engineering for Developers",
+    "courseName": "Build with Andrew an App",
     "platform": "DeepLearning.AI",
     "completionDate": "2 Dec 2025",
     "image": "images/DL-001.png",
@@ -14,7 +14,7 @@
   },
   {
     "id": "DL-002",
-    "courseName": "Build with Andrew an App",
+    "courseName": "ChatGPT Prompt Engineering for Developers",
     "platform": "DeepLearning.AI",
     "completionDate": "15 Jan 2026",
     "image": "images/DL-002.png",
