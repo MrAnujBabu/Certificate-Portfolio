@@ -43,21 +43,48 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* ====== UPDATED CARD IMAGE ====== */
 .card-image {
-    height: 200px;
-    overflow: hidden;
     position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio - Portrait friendly */
+    overflow: hidden;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
 }
 
 .card-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    object-fit: contain; /* ✅ Full image visible, no crop */
+    background: white;
+    padding: 20px;
+    transition: all 0.4s ease;
+    cursor: zoom-in;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
-.card:hover .card-image img {
-    transform: scale(1.05);
+.card-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+/* Zoom effect styles */
+.card-image img.zoomed {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) scale(1.5) !important;
+    z-index: 10000;
+    max-width: 90vw;
+    max-height: 90vh;
+    box-shadow: 0 0 50px rgba(0,0,0,0.7);
+    padding: 30px;
+    background: white;
+    cursor: zoom-out;
+    border-radius: 10px;
 }
 
 .card-content {
@@ -194,8 +221,13 @@ footer p {
         padding: 20px;
     }
     
+    /* Mobile पर image थोड़ा अलग */
     .card-image {
-        height: 180px;
+        padding-top: 85%; /* Mobile पर थोड़ा taller */
+    }
+    
+    .card-image img {
+        padding: 15px;
     }
 }
 
@@ -213,6 +245,25 @@ footer p {
         width: 100%;
         max-width: 200px;
     }
+    
+    .card-image {
+        padding-top: 90%; /* Small mobile पर और taller */
+    }
+    
+    .card-image img {
+        padding: 10px;
+    }
+}
+
+/* Large screens के लिए */
+@media (min-width: 1200px) {
+    .card-image {
+        padding-top: 70%; /* Wide screens पर थोड़ा कम tall */
+    }
+    
+    .card-image img {
+        padding: 25px;
+    }
 }
 
 /* Print Styles */
@@ -227,6 +278,14 @@ footer p {
         break-inside: avoid;
         box-shadow: none;
         border: 1px solid #ddd;
+    }
+    
+    .card-image {
+        padding-top: 60%; /* Print के लिए optimized */
+    }
+    
+    .card-image img {
+        padding: 10px;
     }
 }
 
