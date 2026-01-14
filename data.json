@@ -1,18 +1,5 @@
 [
   {
-    "id": "DL-001",
-    "courseName": "Build with Andrew an App",
-    "platform": "DeepLearning.AI",
-    "completionDate": "2 Dec 2025",
-    "image": "images/DL-001.png",
-    "description": "Learned about LLM principles, iterative prompting, and building chatbots using OpenAI API.",
-    "overview": "🎯 **Course Overview**\n• Mastered effective prompt engineering techniques\n• Built and deployed AI-powered chatbots\n• Implemented advanced LLM applications\n• Hands-on projects with real-world applications",
-    "experience": "This course transformed how I interact with AI systems. The hands-on approach helped me understand the nuances of prompt engineering, and I've already applied these skills in my professional projects.",
-    "skills": ["Prompt Engineering", "LLMs", "OpenAI API", "Chatbots", "AI Integration"],
-    "duration": "8 hours",
-    "status": "Verified"
-  },
-  {
     "id": "DL-002",
     "courseName": "ChatGPT Prompt Engineering for Developers",
     "platform": "DeepLearning.AI",
@@ -21,8 +8,44 @@
     "description": "Learned advanced prompt engineering techniques for developers using OpenAI API.",
     "overview": "🎯 **Course Overview**\n\n🎯 Introduction: Creating an App with AI\n• Learn to transform from passive learner to active AI builder\n\n💬 Prompt Engineering\n• Telling AI what you want (Video instruction)\n• Interactive Chatbot exercise: Telling AI what you want\n\n⚙️ App Setup\n• Download and open your app environment\n\n🚀 App Development\n• Customize your app (Video instruction)\n• Interactive Chatbot exercise: Customize your app\n\n📈 Scaling Up\n• Building multiple applications (Video instruction)\n• Interactive Chatbot exercise: Building more apps\n\n🏁 Conclusion & Project\n• \"You're a builder now!\" mindset transformation\n• Build your final project (Interactive Chatbot)\n• Graded Assignment: Submit your final project",
     "experience": "An incredible journey from learning to building! Andrew's teaching style made complex concepts accessible. The final project gave me confidence to deploy my own AI applications.",
-    "skills": ["Prompt Engineering", "OpenAI API", "Chatbots", "AI Applications", "Python", "API Integration"],
+    "skills": [
+      "Prompt Engineering",
+      "OpenAI API",
+      "Chatbots",
+      "AI Applications",
+      "Python",
+      "API Integration"
+    ],
     "duration": "6 weeks",
+    "status": "Verified"
+  },
+  {
+    "id": "DL-001",
+    "courseName": "Build with Andrew an App",
+    "platform": "DeepLearning.AI",
+    "completionDate": "2 Dec 2025",
+    "image": "images/DL-001.png",
+    "description": "Learned about LLM principles, iterative prompting, and building chatbots using OpenAI API.",
+    "overview": "🎯 **Course Overview**\n• Mastered effective prompt engineering techniques\n• Built and deployed AI-powered chatbots\n• Implemented advanced LLM applications\n• Hands-on projects with real-world applications",
+    "experience": "This course transformed how I interact with AI systems. The hands-on approach helped me understand the nuances of prompt engineering, and I've already applied these skills in my professional projects.",
+    "skills": [
+      "Prompt Engineering",
+      "LLMs",
+      "OpenAI API",
+      "Chatbots",
+      "AI Integration"
+    ],
+    "projectLinks": [
+      {
+        "name": "Live Project",
+        "url": "https://satoshi-registration-portal.vercel.app/"
+      },
+      {
+        "name": "Blockchain Ledger",
+        "url": "https://satoshi-registration-portal.vercel.app/verify.html"
+      }
+    ],
+    "duration": "8 hours",
     "status": "Verified"
   }
 ]
