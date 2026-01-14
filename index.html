@@ -18,6 +18,7 @@
             </a>
             <nav class="gh-nav">
                 <a href="#certificates" class="gh-nav-link active"><i class="fas fa-certificate"></i> Certificates</a>
+                <a href="#skills" class="gh-nav-link"><i class="fas fa-code"></i> Skills</a>
                 <a href="https://github.com/MrAnujBabu" target="_blank" class="gh-nav-link primary"><i class="fab fa-github"></i> View Profile</a>
             </nav>
         </div>
@@ -34,18 +35,18 @@
                 <span class="verified-badge"><i class="fas fa-check-circle"></i> Verified</span>
             </h1>
             <p class="subtitle">Certified AI Developer & Machine Learning Engineer</p>
-            <p class="bio">Passionate about building intelligent systems. All certifications listed below are independently verified and linked to original credentials.</p>
+            <p class="bio">Passionate about building intelligent systems and contributing to open-source projects. All certifications listed below are independently verified and linked to original credentials.</p>
             
             <div class="stats">
-                <div class="stat-item">
+                <div class="stat-item tooltip" data-tooltip="Total Certifications">
                     <div class="stat-number" id="total-courses">0</div>
                     <div class="stat-label">Certificates</div>
                 </div>
-                <div class="stat-item">
+                <div class="stat-item tooltip" data-tooltip="Verified & Completed">
                     <div class="stat-number" id="verified-count">0</div>
                     <div class="stat-label">Verified</div>
                 </div>
-                <div class="stat-item">
+                <div class="stat-item tooltip" data-tooltip="Learning Platforms">
                     <div class="stat-number" id="platforms-count">0</div>
                     <div class="stat-label">Platforms</div>
                 </div>
@@ -63,39 +64,65 @@
     </div>
 
     <!-- Main Content -->
-    <main class="container" id="certificates">
-        <div class="section-header">
-            <h2 class="section-title"><i class="fas fa-award"></i> My Certifications</h2>
-            <div class="filter-buttons">
-                <button class="filter-btn active" onclick="filterCourses('all')">
-                    <i class="fas fa-layer-group"></i> All
-                </button>
-                <button class="filter-btn" onclick="filterCourses('Verified')">
-                    <i class="fas fa-check-circle"></i> Verified
-                </button>
-                <button class="filter-btn" onclick="filterCourses('In Progress')">
-                    <i class="fas fa-spinner"></i> In Progress
-                </button>
+    <main class="container">
+        <!-- Certificate Section -->
+        <div id="certificates" class="section-wrapper">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-award"></i> My Certifications</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterCourses('all')">
+                        <i class="fas fa-layer-group"></i> All
+                    </button>
+                    <button class="filter-btn" onclick="filterCourses('Verified')">
+                        <i class="fas fa-check-circle"></i> Verified
+                    </button>
+                    <button class="filter-btn" onclick="filterCourses('In Progress')">
+                        <i class="fas fa-spinner"></i> In Progress
+                    </button>
+                </div>
+            </div>
+            
+            <div id="certificate-grid" class="grid">
+                <!-- Loading State -->
+                <div class="loading-skeleton">
+                    <span><i class="fas fa-circle-notch fa-spin"></i> Loading Data...</span>
+                </div>
             </div>
         </div>
-        
-        <div id="certificate-grid" class="grid">
-            <!-- Loading State -->
-            <div class="loading-skeleton">
-                <span><i class="fas fa-circle-notch fa-spin"></i> Loading Data...</span>
+
+        <!-- Skills Section (Added from Index 2) -->
+        <section class="skills-section" id="skills">
+            <h2 class="section-title"><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be loaded by script.js -->
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="container footer-content">
             <div class="footer-social">
-                <a href="https://github.com/MrAnujBabu" target="_blank" class="social-link">
+                <a href="https://github.com/MrAnujBabu" target="_blank" class="social-link tooltip" data-tooltip="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-link tooltip" data-tooltip="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link tooltip" data-tooltip="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/MrAnujBabu" target="_blank" class="footer-link">
+                    <i class="fas fa-code-branch"></i> Source Code
+                </a>
+                <a href="#" class="footer-link">
+                    <i class="fas fa-file-alt"></i> Resume
+                </a>
+                <a href="#" class="footer-link">
+                    <i class="fas fa-project-diagram"></i> Projects
+                </a>
             </div>
             <p class="footer-text">
                 © 2024 Anuj Kumar Yadav | All Certificates are <span style="color: #3fb950;">✓ Verified</span><br>
