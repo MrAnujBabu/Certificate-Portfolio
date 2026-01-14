@@ -7,112 +7,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .hero {
-            background: linear-gradient(135deg, #2D2D2D 0%, #1a1a1a 100%);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            background: linear-gradient(90deg, #00C853, #64DD17);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .hero p {
-            font-size: 1.2em;
-            opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto 20px;
-        }
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-        .stat-item {
-            background: rgba(255,255,255,0.1);
-            padding: 15px 25px;
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-        }
-        .stat-number {
-            font-size: 2em;
-            font-weight: 700;
-            color: #00C853;
-        }
-        .stat-label {
-            font-size: 0.9em;
-            opacity: 0.8;
-        }
-        .github-link {
-            display: inline-block;
-            background: #333;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            margin-top: 20px;
-            transition: all 0.3s;
-        }
-        .github-link:hover {
-            background: #00C853;
-            transform: translateY(-3px);
-        }
-        .admin-access {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #00C853;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 50px;
-            text-decoration: none;
-            box-shadow: 0 5px 15px rgba(0,200,83,0.3);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-        }
-        .admin-access:hover {
-            background: #2D2D2D;
-            transform: translateY(-3px);
-        }
-        .filter-buttons {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .filter-btn {
-            background: #e9ecef;
-            border: none;
-            padding: 8px 16px;
-            margin: 0 5px;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        .filter-btn.active {
-            background: #00C853;
-            color: white;
-        }
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2em; }
-            .stats { gap: 15px; }
-            .stat-item { padding: 10px 15px; }
-        }
-    </style>
 </head>
 <body>
-    <div class="hero">
+    <!-- GitHub-style Header -->
+    <header class="gh-header">
         <div class="container">
-            <h1><i class="fas fa-certificate"></i> Anuj Kumar Yadav</h1>
-            <p>Certified AI Developer & Machine Learning Engineer</p>
+            <a href="#" class="gh-logo">
+                <i class="fab fa-github"></i>
+                <span>MrAnujBabu</span>
+            </a>
+            <nav class="gh-nav">
+                <a href="#certificates" class="gh-nav-link active"><i class="fas fa-certificate"></i> Certificates</a>
+                <a href="https://github.com/MrAnujBabu" target="_blank" class="gh-nav-link primary"><i class="fab fa-github"></i> View Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container hero-content">
+            <div class="profile-image">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h1>
+                Anuj Kumar Yadav
+                <span class="verified-badge"><i class="fas fa-check-circle"></i> Verified</span>
+            </h1>
+            <p class="subtitle">Certified AI Developer & Machine Learning Engineer</p>
+            <p class="bio">Passionate about building intelligent systems. All certifications listed below are independently verified and linked to original credentials.</p>
+            
             <div class="stats">
                 <div class="stat-item">
                     <div class="stat-number" id="total-courses">0</div>
@@ -127,56 +50,65 @@
                     <div class="stat-label">Platforms</div>
                 </div>
             </div>
-            <a href="https://github.com/MrAnujBabu" class="github-link" target="_blank">
-                <i class="fab fa-github"></i> View Source Code
-            </a>
+
+            <div class="hero-actions">
+                <a href="https://github.com/MrAnujBabu" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Profile
+                </a>
+                <a href="#certificates" class="btn btn-secondary">
+                    <i class="fas fa-arrow-down"></i> Browse Certificates
+                </a>
+            </div>
         </div>
     </div>
 
-    <main class="container">
-        <div class="filter-buttons">
-            <button class="filter-btn active" onclick="filterCourses('all')">All Courses</button>
-            <button class="filter-btn" onclick="filterCourses('Verified')">Verified</button>
-            <button class="filter-btn" onclick="filterCourses('In Progress')">In Progress</button>
+    <!-- Main Content -->
+    <main class="container" id="certificates">
+        <div class="section-header">
+            <h2 class="section-title"><i class="fas fa-award"></i> My Certifications</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCourses('all')">
+                    <i class="fas fa-layer-group"></i> All
+                </button>
+                <button class="filter-btn" onclick="filterCourses('Verified')">
+                    <i class="fas fa-check-circle"></i> Verified
+                </button>
+                <button class="filter-btn" onclick="filterCourses('In Progress')">
+                    <i class="fas fa-spinner"></i> In Progress
+                </button>
+            </div>
         </div>
         
-        <h2><i class="fas fa-award"></i> My Certifications</h2>
         <div id="certificate-grid" class="grid">
-            <!-- Certificates will load here -->
+            <!-- Loading State -->
+            <div class="loading-skeleton">
+                <span><i class="fas fa-circle-notch fa-spin"></i> Loading Data...</span>
+            </div>
         </div>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>© 2024 Anuj Kumar Yadav | All Certificates are Verified</p>
-            <p>Hosted on GitHub Pages | Last Updated: <span id="last-updated">Loading...</span></p>
+        <div class="container footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/MrAnujBabu" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-text">
+                © 2024 Anuj Kumar Yadav | All Certificates are <span style="color: #3fb950;">✓ Verified</span><br>
+                Hosted on GitHub Pages | Last Updated: <span id="last-updated">Loading...</span>
+            </p>
         </div>
     </footer>
 
+    <!-- Admin Access -->
     <a href="admin.html" class="admin-access">
         <i class="fas fa-cog"></i> Admin Panel
     </a>
 
     <script src="script.js"></script>
-    <script>
-        // Update stats
-        function updateStats(courses) {
-            document.getElementById('total-courses').textContent = courses.length;
-            document.getElementById('verified-count').textContent = 
-                courses.filter(c => c.status === 'Verified').length;
-            
-            const platforms = [...new Set(courses.map(c => c.platform))];
-            document.getElementById('platforms-count').textContent = platforms.length;
-            
-            // Update last updated date
-            const now = new Date();
-            document.getElementById('last-updated').textContent = 
-                now.toLocaleDateString('en-US', { 
-                    day: 'numeric', 
-                    month: 'short', 
-                    year: 'numeric' 
-                });
-        }
-    </script>
 </body>
 </html>
