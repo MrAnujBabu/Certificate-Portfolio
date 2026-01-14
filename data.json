@@ -25,35 +25,4 @@
     "duration": "6 weeks",
     "status": "Verified"
   },
-  {
-    "id": "DL-003",
-    "courseName": "Machine Learning Specialization",
-    "platform": "DeepLearning.AI",
-    "completionDate": "11 Jan 2026",
-    "image": "images/DL-003.png",
-    "description": "Learned advanced ML algorithms, deep learning, and real-world applications",
-    "overview": "🎯 **Course Overview**\n\n📊 **Supervised Learning:**\n• Linear and Logistic Regression\n• Decision Trees and Random Forests\n• Support Vector Machines (SVM)\n\n🤖 **Unsupervised Learning:**\n• K-Means Clustering\n• Principal Component Analysis (PCA)\n• Anomaly Detection\n\n🧠 **Neural Networks & Deep Learning:**\n• Feedforward Neural Networks\n• Convolutional Neural Networks (CNN)\n• Recurrent Neural Networks (RNN)\n\n🚀 **Real-World Projects:**\n• Image Classification Project\n• Sentiment Analysis NLP Project\n• Time Series Forecasting Project",
-    "experience": "This specialization was a game-changer for my ML journey. The hands-on projects helped me understand the practical implementation of algorithms. The capstone project where I built a complete ML pipeline was particularly challenging but rewarding.",
-    "skills": ["Python", "Scikit-learn", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Machine Learning", "Deep Learning"],
-    "duration": "3 months (Approx. 100 hours)",
-    "status": "Verified"
-  },
-  {
-    "id": "DL-004",
-    "courseName": "Build with Andrew Card Certificate",
-    "platform": "DeepLearning.AI",
-    "completionDate": "Pending Verification",
-    "image": "images/DL-004.png",
-    "description": "Certificate awarded upon successful completion of the Build with Andrew program.",
-    "overview": "🏆 **Certificate Details**\n• Verified by DeepLearning.AI\n• Includes interactive project submission\n• Professional recognition for AI development skills",
-    "experience": "Earning this certificate marked a milestone in my journey towards becoming an AI developer. It validated both my knowledge and hands-on experience gained through the Build with Andrew curriculum.",
-    "skills": ["Prompt Engineering", "OpenAI API", "AI Application Development", "Project Deployment"],
-    "duration": "N/A",
-    "status": "Pending",
-    "button": {
-      "label": "Verify my project",
-      "url": "https://satoshi-registration-portal.vercel.app/",
-      "style": "Professional"
-    }
-  }
-]
+ 
