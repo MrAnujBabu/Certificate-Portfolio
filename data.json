@@ -37,5 +37,23 @@
     "skills": ["Python", "Scikit-learn", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Machine Learning", "Deep Learning"],
     "duration": "3 months (Approx. 100 hours)",
     "status": "Verified"
+  },
+  {
+    "id": "DL-004",
+    "courseName": "Build with Andrew Card Certificate",
+    "platform": "DeepLearning.AI",
+    "completionDate": "Pending Verification",
+    "image": "images/DL-004.png",
+    "description": "Certificate awarded upon successful completion of the Build with Andrew program.",
+    "overview": "🏆 **Certificate Details**\n• Verified by DeepLearning.AI\n• Includes interactive project submission\n• Professional recognition for AI development skills",
+    "experience": "Earning this certificate marked a milestone in my journey towards becoming an AI developer. It validated both my knowledge and hands-on experience gained through the Build with Andrew curriculum.",
+    "skills": ["Prompt Engineering", "OpenAI API", "AI Application Development", "Project Deployment"],
+    "duration": "N/A",
+    "status": "Pending",
+    "button": {
+      "label": "Verify my project",
+      "url": "https://satoshi-registration-portal.vercel.app/",
+      "style": "Professional"
+    }
   }
 ]
