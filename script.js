@@ -4,15 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let allCourses = [];
     let currentFilter = 'all';
 
-    // Load and display certificates
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
             allCourses = data;
             displayCourses(data);
             updateStats(data);
-            
-            // Save to localStorage for admin panel access
             localStorage.setItem('certificatesData', JSON.stringify(data));
         })
         .catch(error => {
@@ -28,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function displayCourses(courses) {
         grid.innerHTML = '';
-        
         if (courses.length === 0) {
             grid.innerHTML = `
                 <div style="grid-column: 1/-1; text-align: center; padding: 40px;">
@@ -39,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             return;
         }
-        
         courses.forEach((course, index) => {
             const card = createCourseCard(course, index);
             grid.appendChild(card);
@@ -51,101 +46,79 @@ document.addEventListener("DOMContentLoaded", function() {
         card.className = 'card';
         card.style.animationDelay = `${index * 0.1}s`;
         
-        // Build description with HTML
         let descriptionHTML = course.description;
-        
-        if (course.overview) {
-            descriptionHTML += '<br><br>' + formatTextWithEmojis(course.overview);
-        }
-        
-        if (course.experience) {
-            descriptionHTML += '<br><br><strong>💭 My Experience:</strong><br>' + 
-                               formatTextWithEmojis(course.experience);
-        }
-        
+        if (course.overview) descriptionHTML += '<br><br>' + formatTextWithEmojis(course.overview);
+        if (course.experience) descriptionHTML += '<br><br><strong>💭 My Experience:</strong><br>' + formatTextWithEmojis(course.experience);
         if (course.skills && course.skills.length > 0) {
             const skills = Array.isArray(course.skills) ? course.skills : course.skills.split(',').map(s => s.trim());
             descriptionHTML += '<br><br><strong>🛠️ Skills Gained:</strong><br>';
-            skills.forEach(skill => {
-                descriptionHTML += `• ${skill.trim()}<br>`;
-            });
+            skills.forEach(skill => descriptionHTML += `• ${skill.trim()}<br>`);
         }
-        
-        if (course.duration) {
-            descriptionHTML += `<br><strong>⏱️ Duration:</strong> ${course.duration}`;
+        if (course.duration) descriptionHTML += `<br><strong>⏱️ Duration:</strong> ${course.duration}`;
+
+        // Project Links Logic
+        let linksHtml = '';
+        if (course.projectLinks && course.projectLinks.length > 0) {
+            linksHtml = '<div class="project-links-container">';
+            course.projectLinks.forEach(link => {
+                let icon = 'fas fa-external-link-alt';
+                if (link.name.toLowerCase().includes('verify')) icon = 'fas fa-certificate';
+                if (link.name.toLowerCase().includes('github') || link.name.toLowerCase().includes('source')) icon = 'fab fa-github';
+                
+                linksHtml += `
+                    <a href="${link.url}" target="_blank" class="project-link-btn">
+                        <i class="${icon}"></i> ${link.name}
+                    </a>
+                `;
+            });
+            linksHtml += '</div>';
         }
 
         card.innerHTML = `
             <div class="card-image">
-                <img src="${course.image}" 
-                     alt="${course.courseName} Certificate" 
-                     onclick="openImage('${course.image}')"
-                     loading="lazy">
+                <img src="${course.image}" alt="${course.courseName} Certificate" onclick="openImage('${course.image}')" loading="lazy">
             </div>
             <div class="card-content">
-                <span class="status ${course.status.toLowerCase().replace(' ', '-')}">
-                    ${course.status}
-                </span>
+                <span class="status ${course.status.toLowerCase().replace(' ', '-')}">${course.status}</span>
                 <h3>${course.courseName}</h3>
                 <p class="meta">
                     <i class="fas fa-university"></i> ${course.platform}
                     <i class="fas fa-calendar-alt" style="margin-left: 15px;"></i> ${course.completionDate}
                 </p>
                 <div class="desc">${descriptionHTML}</div>
+                ${linksHtml} <!-- Added Links Here -->
                 <div class="card-footer">
                     <small>ID: ${course.id}</small>
                     <div class="skill-tags">
-                        ${(course.skills && Array.isArray(course.skills) ? course.skills.slice(0, 3).map(s => 
-                            `<span class="skill-tag">${s}</span>`
-                        ).join('') : '')}
+                        ${(course.skills && Array.isArray(course.skills) ? course.skills.slice(0, 3).map(s => `<span class="skill-tag">${s}</span>`).join('') : '')}
                     </div>
                 </div>
             </div>
         `;
-        
         return card;
     }
 
     function formatTextWithEmojis(text) {
-        // Convert newlines to <br> and preserve emojis
-        return text.replace(/\n/g, '<br>')
-                   .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        return text.replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     }
 
-    // Filter courses by status
     window.filterCourses = function(status) {
         currentFilter = status;
-        
-        // Update filter buttons
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
         event.target.classList.add('active');
-        
-        let filteredCourses;
-        if (status === 'all') {
-            filteredCourses = allCourses;
-        } else {
-            filteredCourses = allCourses.filter(course => course.status === status);
-        }
-        
+        let filteredCourses = status === 'all' ? allCourses : allCourses.filter(course => course.status === status);
         displayCourses(filteredCourses);
     };
 
-    // Update statistics
     function updateStats(courses) {
-        if (typeof window.updateStats === 'function') {
-            window.updateStats(courses);
-        }
+        if (typeof window.updateStats === 'function') window.updateStats(courses);
     }
 
-    // Open image in new tab
     window.openImage = function(src) {
         window.open(src, '_blank');
     };
 });
 
-// Format date nicely
 function formatDate(dateString) {
     const date = new Date(dateString);
     const options = { day: 'numeric', month: 'short', year: 'numeric' };
