@@ -1,6 +1,6 @@
 [
   {
-    "id": "DL-002",
+    "id": "DL-001",
     "courseName": "ChatGPT Prompt Engineering for Developers",
     "platform": "DeepLearning.AI",
     "completionDate": "15 Jan 2026",
@@ -20,7 +20,7 @@
     "status": "Verified"
   },
   {
-    "id": "DL-001",
+    "id": "DL-002",
     "courseName": "Build with Andrew an App",
     "platform": "DeepLearning.AI",
     "completionDate": "2 Dec 2025",
