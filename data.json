@@ -16,6 +16,16 @@
       "Python",
       "API Integration"
     ],
+    "projectLinks": [
+      {
+        "name": "My Project Anuj-sarthi.ai",
+        "url": "https://anujsarthiai.streamlit.app/"
+      },
+      {
+        "name": "Source-Anuj-sarthi-deeplearing-ai",
+        "url": "https://github.com/MrAnujBabu/Anuj-sarthi-deeplearning.ai"
+      }
+    ],
     "duration": "6 weeks",
     "status": "Verified"
   },
