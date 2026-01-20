@@ -59,3 +59,23 @@
     "status": "Verified"
   }
 ]
+[
+  {
+    "id": "DL-003",
+    "courseName": "Naveen Bharat",
+    "platform": "Opensource ",
+    "completionDate": "20 Jan 2026",
+    "image": "images/DL-003.png",
+    "description": "Naveen Bharat is Made for Learning Science and Mathmatics & Ai Tools to Empowering you Guys Growth and ",
+    "overview": "🎯 **Course Overview**\n\n🎯 This Platform is Unique of it self Because Here I publish Verified &  Knowledge that is Based on Experience with  Living Project. ",
+    "experience": "This is Exicting Journey With Naveen Bharat ",
+    "skills": [],
+    "duration": "Forever ",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Join Naven Bharat Now",
+        "url": "https://naveenbharatlog-in.vercel.app/"
+      }
+    ]
+  },
