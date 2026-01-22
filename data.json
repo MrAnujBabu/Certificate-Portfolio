@@ -16,6 +16,8 @@
       "Python",
       "API Integration"
     ],
+    "duration": "6 weeks",
+    "status": "Verified",
     "projectLinks": [
       {
         "name": "My Project Anuj-sarthi.ai",
@@ -25,9 +27,7 @@
         "name": "Source-Anuj-sarthi-deeplearing-ai",
         "url": "https://github.com/MrAnujBabu/Anuj-sarthi-deeplearning-ai"
       }
-    ],
-    "duration": "6 weeks",
-    "status": "Verified"
+    ]
   },
   {
     "id": "DL-002",
@@ -45,6 +45,8 @@
       "Chatbots",
       "AI Integration"
     ],
+    "duration": "8 hours",
+    "status": "Verified",
     "projectLinks": [
       {
         "name": "Live Project",
@@ -54,9 +56,7 @@
         "name": "Blockchain Ledger",
         "url": "https://satoshi-registration-portal.vercel.app/verify.html"
       }
-    ],
-    "duration": "8 hours",
-    "status": "Verified"
+    ]
   },
   {
     "id": "DL-003",
@@ -74,6 +74,25 @@
       {
         "name": "Join Naven Bharat Now",
         "url": "https://naveenbharatlog-in.vercel.app/"
+      }
+    ]
+  },
+  {
+    "id": "DL-004",
+    "courseName": "Academy.edu",
+    "platform": "Firebase,Github,Supabase,Replit,Outlier",
+    "completionDate": "22 Jan 2026",
+    "image": "images/DL-004.png",
+    "description": "This is an Temple of Knowledge it self",
+    "overview": "🎯 Goal is to Making something big from scratch. \n🏆I want be Creator & Designer in my life. ",
+    "experience": "This is very Exciting journey . \nThere are so many error when connected to backend from the website . \nbut still I was Kept on doing . ",
+    "skills": [],
+    "duration": "Website complete in3 Days ",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Visit My project",
+        "url": "https://mahimaedu.vercel.app/"
       }
     ]
   }
