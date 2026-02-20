@@ -24,7 +24,7 @@
         "url": "https://anujsarthiai.streamlit.app/"
       },
       {
-        "name": "Source-Anuj-sarthi-deeplearing-ai",
+        "name": "Source Code",
         "url": "https://github.com/MrAnujBabu/Anuj-sarthi-deeplearning-ai"
       }
     ]
@@ -112,8 +112,12 @@
     "status": "Verified",
     "projectLinks": [
       {
-        "name": "https://github.com/MrAnujBabu/Openclaw_anuj_agent.git",
+        "name": "Live Project",
         "url": "https://openclaw.ai/"
+      },
+      {
+        "name": "Source Code",
+        "url": "https://github.com/MrAnujBabu/Openclaw_anuj_agent.git"
       }
     ]
   },
@@ -129,7 +133,12 @@
     "skills": [],
     "duration": "",
     "status": "Verified",
-    "projectLinks": []
+    "projectLinks": [
+      {
+        "name": "Source Code",
+        "url": "https://github.com/MrAnujBabu/zeroclaw_agent.git"
+      }
+    ]
   },
   {
     "id": "DL-007",
@@ -145,8 +154,12 @@
     "status": "Verified",
     "projectLinks": [
       {
-        "name": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git",
+        "name": "Official Docs",
         "url": "https://docs.crawl4ai.com/"
+      },
+      {
+        "name": "Source Code",
+        "url": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git"
       }
     ]
   }
