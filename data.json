@@ -95,5 +95,59 @@
         "url": "https://maahiacedemy.vercel.app/"
       }
     ]
+  },
+  {
+    "id": "DL-005",
+    "courseName": "Openclaw_My_Personal_AI_Agent",
+    "platform": "Terminus on Android , Telegram ",
+    "completionDate": "20 Feb 2026",
+    "image": "images/DL-005.png",
+    "description": "It was Exciting Journey of Building Autonomous Agent for Free from Digital world & To Transcend from Llm . ",
+    "overview": "🎯 **Course Overview**\n\n🎯Clears your inbox, sends emails, manages your calendar, checks you in for flights.\nAll from WhatsApp, Telegram, or any chat app you already use. ",
+    "experience": "It Was Exciting Journey of Building Autonomous Agent for Free from Digital world & To Transcend from Llm . ",
+    "skills": [
+      "Termus"
+    ],
+    "duration": "1 Week",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "https://github.com/MrAnujBabu/Openclaw_anuj_agent.git",
+        "url": "https://openclaw.ai/"
+      }
+    ]
+  },
+  {
+    "id": "DL-006",
+    "courseName": "Zeroclaw_anuj_agent",
+    "platform": "Courses",
+    "completionDate": "20 Feb 2026",
+    "image": "images/DL-006.png",
+    "description": "Zeroclaw Our Personal Ai agent at Rust Code Based based on Openclaw ",
+    "overview": "🎯 **Course Overview**\n\n📚Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything. ",
+    "experience": "I have very good And Complex Experience to Deploy this Fast, small, and fully autonomous AI ",
+    "skills": [],
+    "duration": "",
+    "status": "Verified",
+    "projectLinks": []
+  },
+  {
+    "id": "DL-007",
+    "courseName": "Crawl4ai",
+    "platform": "Google Collab ",
+    "completionDate": "15 Feb 2026",
+    "image": "images/DL-007.png",
+    "description": "Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper\nCrawl4AI is the #1 trending GitHub repository, actively maintained by a vibrant community. It delivers blazing-fast, AI-ready web crawling tailored for large language models, AI agents, and data pipelines. Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with unmatched speed, precision, and deployment ease.",
+    "overview": "🎯 This is Ultimate reseacher and help to crawl the web. \n🏆Crawl4AI is the #1 trending GitHub repository, actively maintained by a vibrant community. It delivers blazing-fast, AI-ready web crawling tailored for large language models, AI agents, and data pipelines. Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with unmatched speed, precision, and deployment ease.",
+    "experience": "We Exciting journey to Deploy . ",
+    "skills": [],
+    "duration": "",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git",
+        "url": "https://docs.crawl4ai.com/"
+      }
+    ]
   }
 ]
