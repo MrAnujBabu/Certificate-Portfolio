@@ -79,7 +79,7 @@
   },
   {
     "id": "DL-004",
-    "courseName": "Maahi Academy",
+    "courseName": "Mahima Academy",
     "platform": "Firebase,Github,Supabase,Replit,Outlier",
     "completionDate": "22 Jan 2026",
     "image": "images/DL-004.png",
@@ -92,7 +92,7 @@
     "projectLinks": [
       {
         "name": "Visit My project",
-        "url": "https://maahiacedemy.vercel.app/"
+        "url": "https://mahimaacademy.vercel.app/"
       }
     ]
   },
