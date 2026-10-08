@@ -1,19 +1,5 @@
 [
   {
-    "id": "DL-001",
-    "courseName": "E2E Link Cert",
-    "platform": "Link Academy",
-    "completionDate": "08 Oct 2026",
-    "image": "https://example.com/my-cert.pdf",
-    "description": "",
-    "overview": "",
-    "experience": "",
-    "skills": [],
-    "duration": "",
-    "status": "Verified",
-    "projectLinks": []
-  },
-  {
     "id": "DL-002",
     "courseName": "Anuj's Decentrilize Blockchain Receipt",
     "platform": "DeepLearning.AI",
