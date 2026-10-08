@@ -165,7 +165,7 @@
   },
   {
     "id": "DL-008",
-    "courseName": "E2E Test Cert",
+    "courseName": "E2E Test Cert Edited",
     "platform": "Test Academy",
     "completionDate": "01 Oct 2026",
     "image": "images/DL-008.png",
@@ -174,7 +174,7 @@
     "experience": "",
     "skills": [],
     "duration": "",
-    "status": "In Progress",
+    "status": "Verified",
     "projectLinks": []
   }
 ]
