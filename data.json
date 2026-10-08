@@ -1,33 +1,17 @@
 [
   {
     "id": "DL-001",
-    "courseName": "ChatGPT Prompt Engineering for Developers",
-    "platform": "DeepLearning.AI",
-    "completionDate": "15 Jan 2026",
-    "image": "images/DL-001.pdf",
-    "description": "Learned advanced prompt engineering techniques for developers using OpenAI API.",
-    "overview": "🎯 **Course Overview**\n\n🎯 Introduction: Creating an App with AI\n• Learn to transform from passive learner to active AI builder\n\n💬 Prompt Engineering\n• Telling AI what you want (Video instruction)\n• Interactive Chatbot exercise: Telling AI what you want\n\n⚙️ App Setup\n• Download and open your app environment\n\n🚀 App Development\n• Customize your app (Video instruction)\n• Interactive Chatbot exercise: Customize your app\n\n📈 Scaling Up\n• Building multiple applications (Video instruction)\n• Interactive Chatbot exercise: Building more apps\n\n🏁 Conclusion & Project\n• \"You're a builder now!\" mindset transformation\n• Build your final project (Interactive Chatbot)\n• Graded Assignment: Submit your final project",
-    "experience": "An incredible journey from learning to building! Andrew's teaching style made complex concepts accessible. The final project gave me confidence to deploy my own AI applications.",
-    "skills": [
-      "Prompt Engineering",
-      "OpenAI API",
-      "Chatbots",
-      "AI Applications",
-      "Python",
-      "API Integration"
-    ],
-    "duration": "6 weeks",
+    "courseName": "E2E Link Cert",
+    "platform": "Link Academy",
+    "completionDate": "08 Oct 2026",
+    "image": "https://example.com/my-cert.pdf",
+    "description": "",
+    "overview": "",
+    "experience": "",
+    "skills": [],
+    "duration": "",
     "status": "Verified",
-    "projectLinks": [
-      {
-        "name": "My Project Anuj-sarthi.ai",
-        "url": "https://anujsarthiai.streamlit.app/"
-      },
-      {
-        "name": "Source Code",
-        "url": "https://github.com/MrAnujBabu/Anuj-sarthi-deeplearning-ai"
-      }
-    ]
+    "projectLinks": []
   },
   {
     "id": "DL-002",
