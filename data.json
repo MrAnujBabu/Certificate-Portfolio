@@ -165,7 +165,7 @@
   },
   {
     "id": "DL-008",
-    "courseName": "E2E Test Certificate",
+    "courseName": "E2E Test Certificate (edited)",
     "platform": "Playwright Academy",
     "completionDate": "08 Oct 2026",
     "image": "images/DL-008.png",
@@ -177,7 +177,7 @@
       "Automation"
     ],
     "duration": "1 minute",
-    "status": "In Progress",
+    "status": "Verified",
     "projectLinks": [
       {
         "name": "Demo",
