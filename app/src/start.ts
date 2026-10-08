@@ -1,1 +1,29 @@
-aW1wb3J0IHsgY3JlYXRlU3RhcnQsIGNyZWF0ZUNzcmZNaWRkbGV3YXJlLCBjcmVhdGVNaWRkbGV3YXJlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXN0YXJ0IjsKCmltcG9ydCB7IHJlbmRlckVycm9yUGFnZSB9IGZyb20gIi4vbGliL2Vycm9yLXBhZ2UiOwoKY29uc3QgZXJyb3JNaWRkbGV3YXJlID0gY3JlYXRlTWlkZGxld2FyZSgpLnNlcnZlcihhc3luYyAoeyBuZXh0IH0pID0+IHsKICB0cnkgewogICAgcmV0dXJuIGF3YWl0IG5leHQoKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgaWYgKGVycm9yICE9IG51bGwgJiYgdHlwZW9mIGVycm9yID09PSAib2JqZWN0IiAmJiAic3RhdHVzQ29kZSIgaW4gZXJyb3IpIHsKICAgICAgdGhyb3cgZXJyb3I7CiAgICB9CiAgICBjb25zb2xlLmVycm9yKGVycm9yKTsKICAgIHJldHVybiBuZXcgUmVzcG9uc2UocmVuZGVyRXJyb3JQYWdlKCksIHsKICAgICAgc3RhdHVzOiA1MDAsCiAgICAgIGhlYWRlcnM6IHsgImNvbnRlbnQtdHlwZSI6ICJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiIH0sCiAgICB9KTsKICB9Cn0pOwoKLy8gU3RhcnQgaW5zdGFsbHMgdGhpcyBhdXRvbWF0aWNhbGx5IHdoZW4gc3JjL3N0YXJ0LnRzIGlzIGFic2VudDsgZGVmaW5pbmcgdGhlCi8vIGZpbGUgb3B0cyBvdXQsIHNvIHJlLWFkZCBpdCBleHBsaWNpdGx5IHRvIGtlZXAgc2VydmVyIGZ1bmN0aW9ucyBwcm90ZWN0ZWQKLy8gZnJvbSBjcm9zcy1zaXRlIHJlcXVlc3RzLgpjb25zdCBjc3JmTWlkZGxld2FyZSA9IGNyZWF0ZUNzcmZNaWRkbGV3YXJlKHsKICBmaWx0ZXI6IChjdHgpID0+IGN0eC5oYW5kbGVyVHlwZSA9PT0gInNlcnZlckZuIiwKfSk7CgpleHBvcnQgY29uc3Qgc3RhcnRJbnN0YW5jZSA9IGNyZWF0ZVN0YXJ0KCgpID0+ICh7CiAgcmVxdWVzdE1pZGRsZXdhcmU6IFtlcnJvck1pZGRsZXdhcmUsIGNzcmZNaWRkbGV3YXJlXSwKfSkpOwo=
+import { createStart, createCsrfMiddleware, createMiddleware } from "@tanstack/react-start";
+
+import { renderErrorPage } from "./lib/error-page";
+
+const errorMiddleware = createMiddleware().server(async ({ next }) => {
+  try {
+    return await next();
+  } catch (error) {
+    if (error != null && typeof error === "object" && "statusCode" in error) {
+      throw error;
+    }
+    console.error(error);
+    return new Response(renderErrorPage(), {
+      status: 500,
+      headers: { "content-type": "text/html; charset=utf-8" },
+    });
+  }
+});
+
+// Start installs this automatically when src/start.ts is absent; defining the
+// file opts out, so re-add it explicitly to keep server functions protected
+// from cross-site requests.
+const csrfMiddleware = createCsrfMiddleware({
+  filter: (ctx) => ctx.handlerType === "serverFn",
+});
+
+export const startInstance = createStart(() => ({
+  requestMiddleware: [errorMiddleware, csrfMiddleware],
+}));

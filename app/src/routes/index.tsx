@@ -1,1 +1,260 @@
-Ly8gPT09PT09PT09PT09PSBGdWxsIGZpbGUgY29udGVudHMgPT09PT09PT09PT09PQoKaW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHF1ZXJ5T3B0aW9ucywgdXNlU3VzcGVuc2VRdWVyeSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1xdWVyeSI7CmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgewogIEdyYWR1YXRpb25DYXAsCiAgQXdhcmQsCiAgQmFkZ2VDaGVjaywKICBDYWxlbmRhciwKICBFeHRlcm5hbExpbmssCiAgRXllLAogIEdpdGh1YiwKICBDbG9jaywKICBGbG93ZXIyLAogIEJ1aWxkaW5nMiwKICBDb2RlLAogIElkQ2FyZCwKICBBcnJvd0Rvd24sCiAgTGF5ZXJzLAogIExvYWRlciwKICBGaWxlVGV4dCwKICBGb2xkZXJHaXQyLAp9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGdldENlcnRpZmljYXRlcyB9IGZyb20gIkAvbGliL3BvcnRmb2xpby5mdW5jdGlvbnMiOwppbXBvcnQgeyBmaWxlVXJsLCB0eXBlIENlcnRpZmljYXRlIH0gZnJvbSAiQC9saWIvcG9ydGZvbGlvIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgpleHBvcnQgY29uc3QgY2VydGlmaWNhdGVzUXVlcnkgPSBxdWVyeU9wdGlvbnMoewogIHF1ZXJ5S2V5OiBbImNlcnRpZmljYXRlcyJdLAogIHF1ZXJ5Rm46ICgpID0+IGdldENlcnRpZmljYXRlcygpLAp9KTsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiLyIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlOiAiQW51aiBLdW1hciBZYWRhdiAtIENlcnRpZmljYXRlcyIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAiVmVyaWZpZWQgY2VydGlmaWNhdGVzLCBwcm9qZWN0cyBhbmQgc2tpbGxzIG9mIEFudWogS3VtYXIgWWFkYXYuIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiAiQW51aiBLdW1hciBZYWRhdiAtIENlcnRpZmljYXRlcyIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogIlZlcmlmaWVkIGNlcnRpZmljYXRlcywgcHJvamVjdHMgYW5kIHNraWxscyBvZiBBbnVqIEt1bWFyIFlhZGF2LiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICBdLAogIH0pLAogIGxvYWRlcjogKHsgY29udGV4dCB9KSA9PiBjb250ZXh0LnF1ZXJ5Q2xpZW50LmVuc3VyZVF1ZXJ5RGF0YShjZXJ0aWZpY2F0ZXNRdWVyeSksCiAgY29tcG9uZW50OiBIb21lLAogIGVycm9yQ29tcG9uZW50OiAoKSA9PiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNiB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICBDb3VsZG4ndCBsb2FkIGNlcnRpZmljYXRlcyByaWdodCBub3cuIFBsZWFzZSByZWZyZXNoLgogICAgPC9kaXY+CiAgKSwKfSk7CgpmdW5jdGlvbiBIb21lKCkgewogIGNvbnN0IHsgZGF0YSB9ID0gdXNlU3VzcGVuc2VRdWVyeShjZXJ0aWZpY2F0ZXNRdWVyeSk7CiAgY29uc3QgW2ZpbHRlciwgc2V0RmlsdGVyXSA9IHVzZVN0YXRlPCJhbGwiIHwgIlZlcmlmaWVkIiB8ICJJbiBQcm9ncmVzcyI+KCJhbGwiKTsKICBjb25zdCBsaXN0ID0gZmlsdGVyID09PSAiYWxsIiA/IGRhdGEgOiBkYXRhLmZpbHRlcigoYykgPT4gYy5zdGF0dXMgPT09IGZpbHRlcik7CiAgY29uc3QgdmVyaWZpZWQgPSBkYXRhLmZpbHRlcigoYykgPT4gYy5zdGF0dXMgPT09ICJWZXJpZmllZCIpLmxlbmd0aDsKICBjb25zdCBwbGF0Zm9ybXMgPSBuZXcgU2V0KGRhdGEubWFwKChjKSA9PiBjLnBsYXRmb3JtLnRyaW0oKSkpLnNpemU7CiAgY29uc3Qgc2tpbGxzID0gQXJyYXkuZnJvbShuZXcgU2V0KGRhdGEuZmxhdE1hcCgoYykgPT4gYy5za2lsbHMgPz8gW10pKSkuZmlsdGVyKEJvb2xlYW4pOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei0xMCBib3JkZXItYiBib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQvODAgYmFja2Ryb3AtYmx1ciI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gZmxleCBtYXgtdy02eGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC01IHB5LTMiPgogICAgICAgICAgPGEgaHJlZj0iI3RvcCIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBmb250LWRpc3BsYXkgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgIDxHaXRodWIgY2xhc3NOYW1lPSJoLTUgdy01IiAvPiA8c3BhbiBjbGFzc05hbWU9ImhpZGRlbiBzbTppbmxpbmUiPk1yQW51akJhYnU8L3NwYW4+CiAgICAgICAgICA8L2E+CiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgc206Z2FwLTIiPgogICAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ic20iIHZhcmlhbnQ9InNlY29uZGFyeSI+CiAgICAgICAgICAgICAgPGEgaHJlZj0iI2NlcnRpZmljYXRpb25zIj4KICAgICAgICAgICAgICAgIDxBd2FyZCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IDxzcGFuIGNsYXNzTmFtZT0iaGlkZGVuIG1pbi1bNDAwcHhdOmlubGluZSI+Q2VydGlmaWNhdGVzPC9zcGFuPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gYXNDaGlsZCBzaXplPSJzbSIgdmFyaWFudD0iZ2hvc3QiPgogICAgICAgICAgICAgIDxhIGhyZWY9IiNza2lsbHMiPgogICAgICAgICAgICAgICAgPENvZGUgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiBTa2lsbHMKICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ic20iPgogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9NckFudWpCYWJ1IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj4KICAgICAgICAgICAgICAgIDxHaXRodWIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiA8c3BhbiBjbGFzc05hbWU9ImhpZGRlbiBtaW4tWzQwMHB4XTppbmxpbmUiPlZpZXcgUHJvZmlsZTwvc3Bhbj4KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9uYXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPHNlY3Rpb24gaWQ9InRvcCIgY2xhc3NOYW1lPSJiZy1oZXJvIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy02eGwgcHgtNSBweS0xMiB0ZXh0LWNlbnRlciBtZDpweS0yNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgbXgtYXV0byBtYi02IHctZml0Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC0yOCB3LTI4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCByaW5nLTQgcmluZy1wcmltYXJ5LzI1IHNoYWRvdy1bMF8wXzYwcHhfLTEwcHhfb2tsY2goMC42NTFfMC4xMjRfMTE5LjQpXSI+CiAgICAgICAgICAgICAgPEdyYWR1YXRpb25DYXAgY2xhc3NOYW1lPSJoLTE0IHctMTQiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC00eGwgZm9udC1ib2xkIGxlYWRpbmctdGlnaHQgdHJhY2tpbmctdGlnaHQgc206dGV4dC01eGwgbWQ6dGV4dC02eGwiPkFudWogS3VtYXIgWWFkYXY8L2gxPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeS8xNSBweC0zIHB5LTEgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgIDxCYWRnZUNoZWNrIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gVmVyaWZpZWQKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1sZyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPkFJIGlzIHRoZSBuZXcgRWxlY3RyaWNpdHk8L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im14LWF1dG8gbXQtNCBtYXgtdy0yeGwgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgUGFzc2lvbmF0ZSBhYm91dCBidWlsZGluZyBpbnRlbGxpZ2VudCBzeXN0ZW1zIGFuZCBjb250cmlidXRpbmcgdG8gb3Blbi1zb3VyY2UgcHJvamVjdHMuIEFsbCBjZXJ0aWZpY2F0aW9ucwogICAgICAgICAgICBsaXN0ZWQgYmVsb3cgYXJlIGluZGVwZW5kZW50bHkgdmVyaWZpZWQgYW5kIGxpbmtlZCB0byBvcmlnaW5hbCBjcmVkZW50aWFscy4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG10LTEwIGdyaWQgbWF4LXctbGcgZ3JpZC1jb2xzLTMgZ2FwLTMgc206Z2FwLTQiPgogICAgICAgICAgICA8U3RhdCBuPXtkYXRhLmxlbmd0aH0gbGFiZWw9IkNlcnRpZmljYXRlcyIgdG9uZT0idGV4dC1jaGFydC0xIiAvPgogICAgICAgICAgICA8U3RhdCBuPXt2ZXJpZmllZH0gbGFiZWw9IlZlcmlmaWVkIiB0b25lPSJ0ZXh0LWNoYXJ0LTIiIC8+CiAgICAgICAgICAgIDxTdGF0IG49e3BsYXRmb3Jtc30gbGFiZWw9IlBsYXRmb3JtcyIgdG9uZT0idGV4dC1jaGFydC0zIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMTAgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHNpemU9ImxnIj4KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vTXJBbnVqQmFidSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciI+CiAgICAgICAgICAgICAgICA8R2l0aHViIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gR2l0SHViIFByb2ZpbGUKICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ibGciIHZhcmlhbnQ9InNlY29uZGFyeSI+CiAgICAgICAgICAgICAgPGEgaHJlZj0iI2NlcnRpZmljYXRpb25zIj4KICAgICAgICAgICAgICAgIDxBcnJvd0Rvd24gY2xhc3NOYW1lPSJoLTQgdy00IiAvPiBCcm93c2UgQ2VydGlmaWNhdGVzCiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTUgcGItMjAiPgogICAgICAgIDxkaXYgaWQ9ImNlcnRpZmljYXRpb25zIiBjbGFzc05hbWU9Im1iLTYgZmxleCBzY3JvbGwtbXQtMjAgZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgcHQtMTIiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC0yeGwgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgIDxBd2FyZCBjbGFzc05hbWU9ImgtNiB3LTYgdGV4dC1hY2NlbnQiIC8+IE15IENlcnRpZmljYXRpb25zCiAgICAgICAgICA8L2gyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAgeyhbImFsbCIsICJWZXJpZmllZCIsICJJbiBQcm9ncmVzcyJdIGFzIGNvbnN0KS5tYXAoKGYpID0+ICgKICAgICAgICAgICAgICA8QnV0dG9uIGtleT17Zn0gc2l6ZT0ic20iIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIiB2YXJpYW50PXtmaWx0ZXIgPT09IGYgPyAiZGVmYXVsdCIgOiAic2Vjb25kYXJ5In0gb25DbGljaz17KCkgPT4gc2V0RmlsdGVyKGYpfT4KICAgICAgICAgICAgICAgIHtmID09PSAiYWxsIiA/IDxMYXllcnMgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gOiBmID09PSAiVmVyaWZpZWQiID8gPEJhZGdlQ2hlY2sgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gOiA8TG9hZGVyIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+fQogICAgICAgICAgICAgICAge2YgPT09ICJhbGwiID8gIkFsbCIgOiBmfQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtNSBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyI+CiAgICAgICAgICB7bGlzdC5tYXAoKGMpID0+ICgKICAgICAgICAgICAgPENlcnRDYXJkIGtleT17Yy5pZH0gYz17Y30gLz4KICAgICAgICAgICkpfQogICAgICAgICAge2xpc3QubGVuZ3RoID09PSAwICYmIDxwIGNsYXNzTmFtZT0iY29sLXNwYW4tZnVsbCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYm9yZGVyIHB5LTEyIHRleHQtY2VudGVyIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+Tm8gY2VydGlmaWNhdGVzIGluIHRoaXMgZ3JvdXAgeWV0LjwvcD59CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtza2lsbHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICA8c2VjdGlvbiBpZD0ic2tpbGxzIiBjbGFzc05hbWU9Im10LTE2IHNjcm9sbC1tdC0yMCI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC0yeGwgZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgICAgPENvZGUgY2xhc3NOYW1lPSJoLTYgdy02IHRleHQtYWNjZW50IiAvPiBUZWNobmljYWwgU2tpbGxzCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAge3NraWxscy5tYXAoKHMpID0+ICgKICAgICAgICAgICAgICAgIDxzcGFuIGtleT17c30gY2xhc3NOYW1lPSJyb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBweC0zIHB5LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIHtzfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICApfQogICAgICA8L21haW4+CgogICAgICA8Zm9vdGVyIGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBweS04IHRleHQtY2VudGVyIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNSBmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWNlbnRlciBnYXAtMyI+CiAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ic20iIHZhcmlhbnQ9InNlY29uZGFyeSI+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL01yQW51akJhYnUvQ2VydGlmaWNhdGUtUG9ydGZvbGlvIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj48R2l0aHViIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gU291cmNlIENvZGU8L2E+PC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ic20iIHZhcmlhbnQ9InNlY29uZGFyeSI+PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL01yQW51akJhYnUiIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPjxGaWxlVGV4dCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IFJlc3VtZTwvYT48L0J1dHRvbj4KICAgICAgICAgIDxCdXR0b24gYXNDaGlsZCBzaXplPSJzbSIgdmFyaWFudD0ic2Vjb25kYXJ5Ij48YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vTXJBbnVqQmFidT90YWI9cmVwb3NpdG9yaWVzIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj48Rm9sZGVyR2l0MiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IFByb2plY3RzPC9hPjwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwPsKpIHtuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCl9IEFudWogS3VtYXIgWWFkYXYgfCBBbGwgQ2VydGlmaWNhdGVzIGFyZSDinJMgVmVyaWZpZWQ8L3A+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIj5Ib3N0ZWQgb24gR2l0SHViIFBhZ2VzIHwgTGFzdCBVcGRhdGVkOiB7bmV3IERhdGUoKS50b0xvY2FsZURhdGVTdHJpbmcoImVuLVVTIiwgeyBtb250aDogInNob3J0IiwgZGF5OiAibnVtZXJpYyIsIHllYXI6ICJudW1lcmljIiB9KX08L3A+CiAgICAgIDwvZm9vdGVyPgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gU3RhdCh7IG4sIGxhYmVsLCB0b25lIH06IHsgbjogbnVtYmVyOyBsYWJlbDogc3RyaW5nOyB0b25lOiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc2Vjb25kYXJ5IHB4LTIgcHktNSBzbTpweC02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9e2Bmb250LWRpc3BsYXkgdGV4dC0zeGwgZm9udC1ib2xkICR7dG9uZX1gfT57bn08L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBzbTp0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2xhYmVsfTwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gQ2VydENhcmQoeyBjIH06IHsgYzogQ2VydGlmaWNhdGUgfSkgewogIGNvbnN0IHZlcmlmaWVkID0gYy5zdGF0dXMgPT09ICJWZXJpZmllZCI7CiAgY29uc3QgZXh0cmFTa2lsbHMgPSBNYXRoLm1heCgoYy5za2lsbHM/Lmxlbmd0aCA/PyAwKSAtIDMsIDApOwogIHJldHVybiAoCiAgICA8YXJ0aWNsZSBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgc2hhZG93LWNhcmQgdHJhbnNpdGlvbiBkdXJhdGlvbi0zMDAgaG92ZXI6LXRyYW5zbGF0ZS15LTEgaG92ZXI6Ym9yZGVyLXByaW1hcnkvNDAgaG92ZXI6c2hhZG93LWdsb3ciPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBiZy1zZWNvbmRhcnkvNTAgcC01Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBoLTEyIHctMTIgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQteGwgYmctYmFja2dyb3VuZCI+CiAgICAgICAgICA8Rmxvd2VyMiBjbGFzc05hbWU9ImgtNiB3LTYgdGV4dC1hY2NlbnQiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAiPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibGluZS1jbGFtcC0yIGZvbnQtc2VtaWJvbGQgbGVhZGluZy1zbnVnIj57Yy5jb3Vyc2VOYW1lfTwvaDM+CiAgICAgICAgICA8cCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICA8QnVpbGRpbmcyIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+IHtjLnBsYXRmb3JtfQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtMSBmbGV4LWNvbCBwLTUiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgPENhbGVuZGFyIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUgdGV4dC1jaGFydC0xIiAvPiB7Zm10RGF0ZShjLmNvbXBsZXRpb25EYXRlKX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgcm91bmRlZC1tZCBiZy1jaGFydC0xLzE1IHB4LTIgcHktMC41IGZvbnQtbWVkaXVtIHRleHQtY2hhcnQtMSI+CiAgICAgICAgICAgIDxJZENhcmQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4ge2MuaWR9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHNwYW4KICAgICAgICAgIGNsYXNzTmFtZT17YG10LTMgaW5saW5lLWZsZXggdy1maXQgaXRlbXMtY2VudGVyIGdhcC0xIHJvdW5kZWQtbWQgcHgtMiBweS0wLjUgdGV4dC14cyBmb250LXNlbWlib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlICR7CiAgICAgICAgICAgIHZlcmlmaWVkID8gImJnLXByaW1hcnkvMTUgdGV4dC1wcmltYXJ5IiA6ICJiZy1hY2NlbnQvMTUgdGV4dC1hY2NlbnQiCiAgICAgICAgICB9YH0KICAgICAgICA+CiAgICAgICAgICB7dmVyaWZpZWQgPyA8QmFkZ2VDaGVjayBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPiA6IDxDbG9jayBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPn0ge2Muc3RhdHVzfQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgbGluZS1jbGFtcC00IHdoaXRlc3BhY2UtcHJlLWxpbmUgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQvODUiPntjLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICB7Yy5za2lsbHM/Lmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSI+CiAgICAgICAgICAgIHtjLnNraWxscy5zbGljZSgwLCAzKS5tYXAoKHMpID0+ICgKICAgICAgICAgICAgICA8c3BhbiBrZXk9e3N9IGNsYXNzTmFtZT0icm91bmRlZC1tZCBiZy1zZWNvbmRhcnkgcHgtMiBweS0wLjUgdGV4dC14cyI+CiAgICAgICAgICAgICAgICB7c30KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICkpfQogICAgICAgICAgICB7ZXh0cmFTa2lsbHMgPiAwICYmIDxzcGFuIGNsYXNzTmFtZT0icm91bmRlZC1tZCBiZy1zZWNvbmRhcnkgcHgtMiBweS0wLjUgdGV4dC14cyI+K3tleHRyYVNraWxsc308L3NwYW4+fQogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LWF1dG8gYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00Ij4KICAgICAgICAgIHtjLnByb2plY3RMaW5rcyAmJiBjLnByb2plY3RMaW5rcy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZ3JpZCBnYXAtMiIgc3R5bGU9e3sgZ3JpZFRlbXBsYXRlQ29sdW1uczogYHJlcGVhdCgke01hdGgubWluKGMucHJvamVjdExpbmtzLmxlbmd0aCwgMil9LCBtaW5tYXgoMCwgMWZyKSlgIH19PgogICAgICAgICAgICAgIHtjLnByb2plY3RMaW5rcy5tYXAoKGwpID0+ICgKICAgICAgICAgICAgICAgIDxCdXR0b24ga2V5PXtsLnVybH0gYXNDaGlsZCBzaXplPSJzbSIgdmFyaWFudD0ic2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAgPGEgaHJlZj17bC51cmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPgogICAgICAgICAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4ge2wubmFtZX0KICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICAgIHtjLmltYWdlICYmICgKICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHNpemU9InNtIiBjbGFzc05hbWU9Im10LTIgdy1mdWxsIj4KICAgICAgICAgICAgICA8YSBocmVmPXtmaWxlVXJsKGMuaW1hZ2UpfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj4KICAgICAgICAgICAgICAgIDxFeWUgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gVmlldyBDZXJ0aWZpY2F0ZSBJbWFnZQogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvYXJ0aWNsZT4KICApOwp9CgpmdW5jdGlvbiBmbXREYXRlKGQ6IHN0cmluZykgewogIGNvbnN0IHQgPSBuZXcgRGF0ZShkKTsKICByZXR1cm4gaXNOYU4odC5nZXRUaW1lKCkpID8gZCA6IHQudG9Mb2NhbGVEYXRlU3RyaW5nKCJlbi1VUyIsIHsgbW9udGg6ICJzaG9ydCIsIGRheTogIm51bWVyaWMiLCB5ZWFyOiAibnVtZXJpYyIgfSk7Cn0K
+// ============= Full file contents =============
+
+import { createFileRoute } from "@tanstack/react-router";
+import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { useState } from "react";
+import {
+  GraduationCap,
+  Award,
+  BadgeCheck,
+  Calendar,
+  ExternalLink,
+  Eye,
+  Github,
+  Clock,
+  Flower2,
+  Building2,
+  Code,
+  IdCard,
+  ArrowDown,
+  Layers,
+  Loader,
+  FileText,
+  FolderGit2,
+} from "lucide-react";
+import { getCertificates } from "@/lib/portfolio.functions";
+import { fileUrl, type Certificate } from "@/lib/portfolio";
+import { Button } from "@/components/ui/button";
+
+export const certificatesQuery = queryOptions({
+  queryKey: ["certificates"],
+  queryFn: () => getCertificates(),
+});
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Anuj Kumar Yadav - Certificates" },
+      { name: "description", content: "Verified certificates, projects and skills of Anuj Kumar Yadav." },
+      { property: "og:title", content: "Anuj Kumar Yadav - Certificates" },
+      { property: "og:description", content: "Verified certificates, projects and skills of Anuj Kumar Yadav." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  loader: ({ context }) => context.queryClient.ensureQueryData(certificatesQuery),
+  component: Home,
+  errorComponent: () => (
+    <div className="flex min-h-screen items-center justify-center p-6 text-center text-muted-foreground">
+      Couldn't load certificates right now. Please refresh.
+    </div>
+  ),
+});
+
+function Home() {
+  const { data } = useSuspenseQuery(certificatesQuery);
+  const [filter, setFilter] = useState<"all" | "Verified" | "In Progress">("all");
+  const list = filter === "all" ? data : data.filter((c) => c.status === filter);
+  const verified = data.filter((c) => c.status === "Verified").length;
+  const platforms = new Set(data.map((c) => c.platform.trim())).size;
+  const skills = Array.from(new Set(data.flatMap((c) => c.skills ?? []))).filter(Boolean);
+
+  return (
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-10 border-b border-border bg-background/80 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
+          <a href="#top" className="flex items-center gap-2 font-display font-semibold">
+            <Github className="h-5 w-5" /> <span className="hidden sm:inline">MrAnujBabu</span>
+          </a>
+          <nav className="flex items-center gap-1 sm:gap-2">
+            <Button asChild size="sm" variant="secondary">
+              <a href="#certifications">
+                <Award className="h-4 w-4" /> <span className="hidden min-[400px]:inline">Certificates</span>
+              </a>
+            </Button>
+            <Button asChild size="sm" variant="ghost">
+              <a href="#skills">
+                <Code className="h-4 w-4" /> Skills
+              </a>
+            </Button>
+            <Button asChild size="sm">
+              <a href="https://github.com/MrAnujBabu" target="_blank" rel="noreferrer">
+                <Github className="h-4 w-4" /> <span className="hidden min-[400px]:inline">View Profile</span>
+              </a>
+            </Button>
+          </nav>
+        </div>
+      </header>
+
+      <section id="top" className="bg-hero">
+        <div className="mx-auto max-w-6xl px-5 py-12 text-center md:py-24">
+          <div className="relative mx-auto mb-6 w-fit">
+            <div className="flex h-28 w-28 items-center justify-center rounded-full bg-primary text-primary-foreground ring-4 ring-primary/25 shadow-[0_0_60px_-10px_oklch(0.651_0.124_119.4)]">
+              <GraduationCap className="h-14 w-14" />
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">Anuj Kumar Yadav</h1>
+            <span className="inline-flex items-center gap-1 rounded-full bg-primary/15 px-3 py-1 text-sm font-medium text-primary">
+              <BadgeCheck className="h-4 w-4" /> Verified
+            </span>
+          </div>
+          <p className="mt-3 text-lg text-muted-foreground">AI is the new Electricity</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+            Passionate about building intelligent systems and contributing to open-source projects. All certifications
+            listed below are independently verified and linked to original credentials.
+          </p>
+          <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 gap-3 sm:gap-4">
+            <Stat n={data.length} label="Certificates" tone="text-chart-1" />
+            <Stat n={verified} label="Verified" tone="text-chart-2" />
+            <Stat n={platforms} label="Platforms" tone="text-chart-3" />
+          </div>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <Button asChild size="lg">
+              <a href="https://github.com/MrAnujBabu" target="_blank" rel="noreferrer">
+                <Github className="h-4 w-4" /> GitHub Profile
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="secondary">
+              <a href="#certifications">
+                <ArrowDown className="h-4 w-4" /> Browse Certificates
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <main className="mx-auto max-w-6xl px-5 pb-20">
+        <div id="certifications" className="mb-6 flex scroll-mt-20 flex-wrap items-center justify-between gap-3 pt-12">
+          <h2 className="flex items-center gap-2 text-2xl font-semibold">
+            <Award className="h-6 w-6 text-accent" /> My Certifications
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {(["all", "Verified", "In Progress"] as const).map((f) => (
+              <Button key={f} size="sm" className="rounded-full" variant={filter === f ? "default" : "secondary"} onClick={() => setFilter(f)}>
+                {f === "all" ? <Layers className="h-3.5 w-3.5" /> : f === "Verified" ? <BadgeCheck className="h-3.5 w-3.5" /> : <Loader className="h-3.5 w-3.5" />}
+                {f === "all" ? "All" : f}
+              </Button>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {list.map((c) => (
+            <CertCard key={c.id} c={c} />
+          ))}
+          {list.length === 0 && <p className="col-span-full rounded-2xl border border-dashed border-border py-12 text-center text-muted-foreground">No certificates in this group yet.</p>}
+        </div>
+
+        {skills.length > 0 && (
+          <section id="skills" className="mt-16 scroll-mt-20">
+            <h2 className="mb-4 flex items-center gap-2 text-2xl font-semibold">
+              <Code className="h-6 w-6 text-accent" /> Technical Skills
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {skills.map((s) => (
+                <span key={s} className="rounded-full border border-border bg-card px-3 py-1 text-sm">
+                  {s}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
+      </main>
+
+      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
+        <div className="mb-5 flex flex-wrap justify-center gap-3">
+          <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu/Certificate-Portfolio" target="_blank" rel="noreferrer"><Github className="h-4 w-4" /> Source Code</a></Button>
+          <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu" target="_blank" rel="noreferrer"><FileText className="h-4 w-4" /> Resume</a></Button>
+          <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu?tab=repositories" target="_blank" rel="noreferrer"><FolderGit2 className="h-4 w-4" /> Projects</a></Button>
+        </div>
+        <p>© {new Date().getFullYear()} Anuj Kumar Yadav | All Certificates are ✓ Verified</p>
+        <p className="mt-1">Hosted on GitHub Pages | Last Updated: {new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</p>
+      </footer>
+    </div>
+  );
+}
+
+function Stat({ n, label, tone }: { n: number; label: string; tone: string }) {
+  return (
+    <div className="rounded-2xl border border-border bg-secondary px-2 py-5 sm:px-6">
+      <div className={`font-display text-3xl font-bold ${tone}`}>{n}</div>
+      <div className="text-[10px] uppercase tracking-wider sm:text-xs text-muted-foreground">{label}</div>
+    </div>
+  );
+}
+
+function CertCard({ c }: { c: Certificate }) {
+  const verified = c.status === "Verified";
+  const extraSkills = Math.max((c.skills?.length ?? 0) - 3, 0);
+  return (
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-card transition duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-glow">
+      <div className="flex items-center gap-4 border-b border-border bg-secondary/50 p-5">
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-background">
+          <Flower2 className="h-6 w-6 text-accent" />
+        </div>
+        <div className="min-w-0">
+          <h3 className="line-clamp-2 font-semibold leading-snug">{c.courseName}</h3>
+          <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
+            <Building2 className="h-3.5 w-3.5" /> {c.platform}
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+          <span className="flex items-center gap-1.5">
+            <Calendar className="h-3.5 w-3.5 text-chart-1" /> {fmtDate(c.completionDate)}
+          </span>
+          <span className="flex items-center gap-1 rounded-md bg-chart-1/15 px-2 py-0.5 font-medium text-chart-1">
+            <IdCard className="h-3.5 w-3.5" /> {c.id}
+          </span>
+        </div>
+        <span
+          className={`mt-3 inline-flex w-fit items-center gap-1 rounded-md px-2 py-0.5 text-xs font-semibold uppercase tracking-wide ${
+            verified ? "bg-primary/15 text-primary" : "bg-accent/15 text-accent"
+          }`}
+        >
+          {verified ? <BadgeCheck className="h-3.5 w-3.5" /> : <Clock className="h-3.5 w-3.5" />} {c.status}
+        </span>
+        <p className="mt-3 line-clamp-4 whitespace-pre-line text-sm text-foreground/85">{c.description}</p>
+        {c.skills?.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {c.skills.slice(0, 3).map((s) => (
+              <span key={s} className="rounded-md bg-secondary px-2 py-0.5 text-xs">
+                {s}
+              </span>
+            ))}
+            {extraSkills > 0 && <span className="rounded-md bg-secondary px-2 py-0.5 text-xs">+{extraSkills}</span>}
+          </div>
+        )}
+
+        <div className="mt-auto border-t border-border pt-4">
+          {c.projectLinks && c.projectLinks.length > 0 && (
+            <div className="mb-2 grid gap-2" style={{ gridTemplateColumns: `repeat(${Math.min(c.projectLinks.length, 2)}, minmax(0, 1fr))` }}>
+              {c.projectLinks.map((l) => (
+                <Button key={l.url} asChild size="sm" variant="secondary">
+                  <a href={l.url} target="_blank" rel="noreferrer">
+                    <ExternalLink className="h-3.5 w-3.5" /> {l.name}
+                  </a>
+                </Button>
+              ))}
+            </div>
+          )}
+          {c.image && (
+            <Button asChild size="sm" className="mt-2 w-full">
+              <a href={fileUrl(c.image)} target="_blank" rel="noreferrer">
+                <Eye className="h-3.5 w-3.5" /> View Certificate Image
+              </a>
+            </Button>
+          )}
+        </div>
+      </div>
+    </article>
+  );
+}
+
+function fmtDate(d: string) {
+  const t = new Date(d);
+  return isNaN(t.getTime()) ? d : t.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}

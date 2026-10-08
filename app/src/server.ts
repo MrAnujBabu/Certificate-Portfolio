@@ -1,1 +1,61 @@
-aW1wb3J0ICIuL2xpYi9lcnJvci1jYXB0dXJlIjsKCmltcG9ydCB7IGNvbnN1bWVMYXN0Q2FwdHVyZWRFcnJvciB9IGZyb20gIi4vbGliL2Vycm9yLWNhcHR1cmUiOwppbXBvcnQgeyByZW5kZXJFcnJvclBhZ2UgfSBmcm9tICIuL2xpYi9lcnJvci1wYWdlIjsKCnR5cGUgU2VydmVyRW50cnkgPSB7CiAgZmV0Y2g6IChyZXF1ZXN0OiBSZXF1ZXN0LCBlbnY6IHVua25vd24sIGN0eDogdW5rbm93bikgPT4gUHJvbWlzZTxSZXNwb25zZT4gfCBSZXNwb25zZTsKfTsKCmxldCBzZXJ2ZXJFbnRyeVByb21pc2U6IFByb21pc2U8U2VydmVyRW50cnk+IHwgdW5kZWZpbmVkOwoKYXN5bmMgZnVuY3Rpb24gZ2V0U2VydmVyRW50cnkoKTogUHJvbWlzZTxTZXJ2ZXJFbnRyeT4gewogIGlmICghc2VydmVyRW50cnlQcm9taXNlKSB7CiAgICBzZXJ2ZXJFbnRyeVByb21pc2UgPSBpbXBvcnQoIkB0YW5zdGFjay9yZWFjdC1zdGFydC9zZXJ2ZXItZW50cnkiKS50aGVuKAogICAgICAobSkgPT4gKG0uZGVmYXVsdCA/PyBtKSBhcyBTZXJ2ZXJFbnRyeSwKICAgICk7CiAgfQogIHJldHVybiBzZXJ2ZXJFbnRyeVByb21pc2U7Cn0KCi8vIGgzIHN3YWxsb3dzIGluLWhhbmRsZXIgdGhyb3dzIGludG8gYSBub3JtYWwgNTAwIFJlc3BvbnNlIHdpdGggYm9keQovLyB7InVuaGFuZGxlZCI6dHJ1ZSwibWVzc2FnZSI6IkhUVFBFcnJvciJ9IOKAlCB0cnkvY2F0Y2ggYWxvbmUgbmV2ZXIgZmlyZXMgZm9yIHRob3NlLgphc3luYyBmdW5jdGlvbiBub3JtYWxpemVDYXRhc3Ryb3BoaWNTc3JSZXNwb25zZShyZXNwb25zZTogUmVzcG9uc2UpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgaWYgKHJlc3BvbnNlLnN0YXR1cyA8IDUwMCkgcmV0dXJuIHJlc3BvbnNlOwogIGNvbnN0IGNvbnRlbnRUeXBlID0gcmVzcG9uc2UuaGVhZGVycy5nZXQoImNvbnRlbnQtdHlwZSIpID8/ICIiOwogIGlmICghY29udGVudFR5cGUuaW5jbHVkZXMoImFwcGxpY2F0aW9uL2pzb24iKSkgcmV0dXJuIHJlc3BvbnNlOwoKICBjb25zdCBib2R5ID0gYXdhaXQgcmVzcG9uc2UuY2xvbmUoKS50ZXh0KCk7CiAgaWYgKCFpc0gzU3dhbGxvd2VkRXJyb3JCb2R5KGJvZHkpKSByZXR1cm4gcmVzcG9uc2U7CgogIGNvbnNvbGUuZXJyb3IoY29uc3VtZUxhc3RDYXB0dXJlZEVycm9yKCkgPz8gbmV3IEVycm9yKGBoMyBzd2FsbG93ZWQgU1NSIGVycm9yOiAke2JvZHl9YCkpOwogIHJldHVybiBuZXcgUmVzcG9uc2UocmVuZGVyRXJyb3JQYWdlKCksIHsKICAgIHN0YXR1czogNTAwLAogICAgaGVhZGVyczogeyAiY29udGVudC10eXBlIjogInRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIgfSwKICB9KTsKfQoKZnVuY3Rpb24gaXNIM1N3YWxsb3dlZEVycm9yQm9keShib2R5OiBzdHJpbmcpOiBib29sZWFuIHsKICB0cnkgewogICAgY29uc3QgcGF5bG9hZCA9IEpTT04ucGFyc2UoYm9keSkgYXMgeyB1bmhhbmRsZWQ/OiB1bmtub3duOyBtZXNzYWdlPzogdW5rbm93biB9OwogICAgcmV0dXJuIHBheWxvYWQudW5oYW5kbGVkID09PSB0cnVlICYmIHBheWxvYWQubWVzc2FnZSA9PT0gIkhUVFBFcnJvciI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgpleHBvcnQgZGVmYXVsdCB7CiAgYXN5bmMgZmV0Y2gocmVxdWVzdDogUmVxdWVzdCwgZW52OiB1bmtub3duLCBjdHg6IHVua25vd24pIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGhhbmRsZXIgPSBhd2FpdCBnZXRTZXJ2ZXJFbnRyeSgpOwogICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGhhbmRsZXIuZmV0Y2gocmVxdWVzdCwgZW52LCBjdHgpOwogICAgICByZXR1cm4gYXdhaXQgbm9ybWFsaXplQ2F0YXN0cm9waGljU3NyUmVzcG9uc2UocmVzcG9uc2UpOwogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcihlcnJvcik7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UocmVuZGVyRXJyb3JQYWdlKCksIHsKICAgICAgICBzdGF0dXM6IDUwMCwKICAgICAgICBoZWFkZXJzOiB7ICJjb250ZW50LXR5cGUiOiAidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IiB9LAogICAgICB9KTsKICAgIH0KICB9LAp9Owo=
+import "./lib/error-capture";
+
+import { consumeLastCapturedError } from "./lib/error-capture";
+import { renderErrorPage } from "./lib/error-page";
+
+type ServerEntry = {
+  fetch: (request: Request, env: unknown, ctx: unknown) => Promise<Response> | Response;
+};
+
+let serverEntryPromise: Promise<ServerEntry> | undefined;
+
+async function getServerEntry(): Promise<ServerEntry> {
+  if (!serverEntryPromise) {
+    serverEntryPromise = import("@tanstack/react-start/server-entry").then(
+      (m) => (m.default ?? m) as ServerEntry,
+    );
+  }
+  return serverEntryPromise;
+}
+
+// h3 swallows in-handler throws into a normal 500 Response with body
+// {"unhandled":true,"message":"HTTPError"} — try/catch alone never fires for those.
+async function normalizeCatastrophicSsrResponse(response: Response): Promise<Response> {
+  if (response.status < 500) return response;
+  const contentType = response.headers.get("content-type") ?? "";
+  if (!contentType.includes("application/json")) return response;
+
+  const body = await response.clone().text();
+  if (!isH3SwallowedErrorBody(body)) return response;
+
+  console.error(consumeLastCapturedError() ?? new Error(`h3 swallowed SSR error: ${body}`));
+  return new Response(renderErrorPage(), {
+    status: 500,
+    headers: { "content-type": "text/html; charset=utf-8" },
+  });
+}
+
+function isH3SwallowedErrorBody(body: string): boolean {
+  try {
+    const payload = JSON.parse(body) as { unhandled?: unknown; message?: unknown };
+    return payload.unhandled === true && payload.message === "HTTPError";
+  } catch {
+    return false;
+  }
+}
+
+export default {
+  async fetch(request: Request, env: unknown, ctx: unknown) {
+    try {
+      const handler = await getServerEntry();
+      const response = await handler.fetch(request, env, ctx);
+      return await normalizeCatastrophicSsrResponse(response);
+    } catch (error) {
+      console.error(error);
+      return new Response(renderErrorPage(), {
+        status: 500,
+        headers: { "content-type": "text/html; charset=utf-8" },
+      });
+    }
+  },
+};

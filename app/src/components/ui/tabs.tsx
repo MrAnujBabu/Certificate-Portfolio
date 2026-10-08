@@ -1,1 +1,53 @@
-aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiOwppbXBvcnQgKiBhcyBUYWJzUHJpbWl0aXZlIGZyb20gIkByYWRpeC11aS9yZWFjdC10YWJzIjsKCmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMiOwoKY29uc3QgVGFicyA9IFRhYnNQcmltaXRpdmUuUm9vdDsKCmNvbnN0IFRhYnNMaXN0ID0gUmVhY3QuZm9yd2FyZFJlZjwKICBSZWFjdC5FbGVtZW50UmVmPHR5cGVvZiBUYWJzUHJpbWl0aXZlLkxpc3Q+LAogIFJlYWN0LkNvbXBvbmVudFByb3BzV2l0aG91dFJlZjx0eXBlb2YgVGFic1ByaW1pdGl2ZS5MaXN0Pgo+KCh7IGNsYXNzTmFtZSwgLi4ucHJvcHMgfSwgcmVmKSA9PiAoCiAgPFRhYnNQcmltaXRpdmUuTGlzdAogICAgcmVmPXtyZWZ9CiAgICBjbGFzc05hbWU9e2NuKAogICAgICAiaW5saW5lLWZsZXggaC05IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIGJnLW11dGVkIHAtMSB0ZXh0LW11dGVkLWZvcmVncm91bmQiLAogICAgICBjbGFzc05hbWUsCiAgICApfQogICAgey4uLnByb3BzfQogIC8+CikpOwpUYWJzTGlzdC5kaXNwbGF5TmFtZSA9IFRhYnNQcmltaXRpdmUuTGlzdC5kaXNwbGF5TmFtZTsKCmNvbnN0IFRhYnNUcmlnZ2VyID0gUmVhY3QuZm9yd2FyZFJlZjwKICBSZWFjdC5FbGVtZW50UmVmPHR5cGVvZiBUYWJzUHJpbWl0aXZlLlRyaWdnZXI+LAogIFJlYWN0LkNvbXBvbmVudFByb3BzV2l0aG91dFJlZjx0eXBlb2YgVGFic1ByaW1pdGl2ZS5UcmlnZ2VyPgo+KCh7IGNsYXNzTmFtZSwgLi4ucHJvcHMgfSwgcmVmKSA9PiAoCiAgPFRhYnNQcmltaXRpdmUuVHJpZ2dlcgogICAgcmVmPXtyZWZ9CiAgICBjbGFzc05hbWU9e2NuKAogICAgICAiaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHdoaXRlc3BhY2Utbm93cmFwIHJvdW5kZWQtbWQgcHgtMyBweS0xIHRleHQtc20gZm9udC1tZWRpdW0gcmluZy1vZmZzZXQtYmFja2dyb3VuZCBjdXJzb3ItcG9pbnRlciB0cmFuc2l0aW9uLWFsbCBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIgZGlzYWJsZWQ6cG9pbnRlci1ldmVudHMtbm9uZSBkaXNhYmxlZDpvcGFjaXR5LTUwIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkYXRhLVtzdGF0ZT1hY3RpdmVdOmJnLWJhY2tncm91bmQgZGF0YS1bc3RhdGU9YWN0aXZlXTp0ZXh0LWZvcmVncm91bmQgZGF0YS1bc3RhdGU9YWN0aXZlXTpzaGFkb3ciLAogICAgICBjbGFzc05hbWUsCiAgICApfQogICAgey4uLnByb3BzfQogIC8+CikpOwpUYWJzVHJpZ2dlci5kaXNwbGF5TmFtZSA9IFRhYnNQcmltaXRpdmUuVHJpZ2dlci5kaXNwbGF5TmFtZTsKCmNvbnN0IFRhYnNDb250ZW50ID0gUmVhY3QuZm9yd2FyZFJlZjwKICBSZWFjdC5FbGVtZW50UmVmPHR5cGVvZiBUYWJzUHJpbWl0aXZlLkNvbnRlbnQ+LAogIFJlYWN0LkNvbXBvbmVudFByb3BzV2l0aG91dFJlZjx0eXBlb2YgVGFic1ByaW1pdGl2ZS5Db250ZW50Pgo+KCh7IGNsYXNzTmFtZSwgLi4ucHJvcHMgfSwgcmVmKSA9PiAoCiAgPFRhYnNQcmltaXRpdmUuQ29udGVudAogICAgcmVmPXtyZWZ9CiAgICBjbGFzc05hbWU9e2NuKAogICAgICAibXQtMiByaW5nLW9mZnNldC1iYWNrZ3JvdW5kIGZvY3VzLXZpc2libGU6b3V0bGluZS1ub25lIGZvY3VzLXZpc2libGU6cmluZy0yIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMiIsCiAgICAgIGNsYXNzTmFtZSwKICAgICl9CiAgICB7Li4ucHJvcHN9CiAgLz4KKSk7ClRhYnNDb250ZW50LmRpc3BsYXlOYW1lID0gVGFic1ByaW1pdGl2ZS5Db250ZW50LmRpc3BsYXlOYW1lOwoKZXhwb3J0IHsgVGFicywgVGFic0xpc3QsIFRhYnNUcmlnZ2VyLCBUYWJzQ29udGVudCB9Owo=
+import * as React from "react";
+import * as TabsPrimitive from "@radix-ui/react-tabs";
+
+import { cn } from "@/lib/utils";
+
+const Tabs = TabsPrimitive.Root;
+
+const TabsList = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.List>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.List>
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.List
+    ref={ref}
+    className={cn(
+      "inline-flex h-9 items-center justify-center rounded-lg bg-muted p-1 text-muted-foreground",
+      className,
+    )}
+    {...props}
+  />
+));
+TabsList.displayName = TabsPrimitive.List.displayName;
+
+const TabsTrigger = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.Trigger>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.Trigger>
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.Trigger
+    ref={ref}
+    className={cn(
+      "inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background cursor-pointer transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow",
+      className,
+    )}
+    {...props}
+  />
+));
+TabsTrigger.displayName = TabsPrimitive.Trigger.displayName;
+
+const TabsContent = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.Content>
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.Content
+    ref={ref}
+    className={cn(
+      "mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+      className,
+    )}
+    {...props}
+  />
+));
+TabsContent.displayName = TabsPrimitive.Content.displayName;
+
+export { Tabs, TabsList, TabsTrigger, TabsContent };

@@ -1,1 +1,218 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgUkVQT19CUkFOQ0gsIFJFUE9fTkFNRSwgUkVQT19PV05FUiwgdHlwZSBDZXJ0aWZpY2F0ZSB9IGZyb20gIi4vcG9ydGZvbGlvIjsKCmNvbnN0IEdBVEVXQVlfVVJMID0gImh0dHBzOi8vY29ubmVjdG9yLWdhdGV3YXkubG92YWJsZS5kZXYvZ2l0aHViIjsKCmFzeW5jIGZ1bmN0aW9uIGdoKHBhdGg6IHN0cmluZywgaW5pdD86IFJlcXVlc3RJbml0KSB7CiAgY29uc3QgbG92YWJsZUtleSA9IHByb2Nlc3MuZW52WydMT1ZBQkxFX0FQSV9LRVknXTsKICBjb25zdCBnaEtleSA9IHByb2Nlc3MuZW52WydHSVRIVUJfQVBJX0tFWSddOwogIGlmICghbG92YWJsZUtleSB8fCAhZ2hLZXkpIHRocm93IG5ldyBFcnJvcigiR2l0SHViIGNvbm5lY3Rpb24gaXMgbm90IHNldCB1cCIpOwogIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGAke0dBVEVXQVlfVVJMfS9yZXBvcy8ke1JFUE9fT1dORVJ9LyR7UkVQT19OQU1FfS8ke3BhdGh9YCwgewogICAgLi4uaW5pdCwKICAgIGhlYWRlcnM6IHsKICAgICAgQWNjZXB0OiAiYXBwbGljYXRpb24vdm5kLmdpdGh1Yitqc29uIiwKICAgICAgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke2xvdmFibGVLZXl9YCwKICAgICAgIlgtQ29ubmVjdGlvbi1BcGktS2V5IjogZ2hLZXksCiAgICAgIC4uLihpbml0Py5oZWFkZXJzID8/IHt9KSwKICAgIH0sCiAgfSk7CiAgaWYgKCFyZXMub2spIHsKICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXMudGV4dCgpOwogICAgY29uc29sZS5lcnJvcihgR2l0SHViIHJlcXVlc3QgZmFpbGVkIFske3Jlcy5zdGF0dXN9XTogJHtib2R5fWApOwogICAgdGhyb3cgbmV3IEVycm9yKGBHaXRIdWIgcmVxdWVzdCBmYWlsZWQgWyR7cmVzLnN0YXR1c31dOiAke2JvZHl9YCk7CiAgfQogIHJldHVybiByZXMuanNvbigpOwp9CgpmdW5jdGlvbiBkZWNvZGVCYXNlNjRVdGY4KGI2NDogc3RyaW5nKSB7CiAgY29uc3QgYmluID0gYXRvYihiNjQucmVwbGFjZSgvXG4vZywgIiIpKTsKICBjb25zdCBieXRlcyA9IFVpbnQ4QXJyYXkuZnJvbShiaW4sIChjKSA9PiBjLmNoYXJDb2RlQXQoMCkpOwogIHJldHVybiBuZXcgVGV4dERlY29kZXIoKS5kZWNvZGUoYnl0ZXMpOwp9CgpmdW5jdGlvbiBlbmNvZGVVdGY4QmFzZTY0KHRleHQ6IHN0cmluZykgewogIGNvbnN0IGJ5dGVzID0gbmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKHRleHQpOwogIGxldCBiaW4gPSAiIjsKICBmb3IgKGxldCBpID0gMDsgaSA8IGJ5dGVzLmxlbmd0aDsgaSArPSAweDgwMDApIHsKICAgIGJpbiArPSBTdHJpbmcuZnJvbUNoYXJDb2RlKC4uLmJ5dGVzLnN1YmFycmF5KGksIGkgKyAweDgwMDApKTsKICB9CiAgcmV0dXJuIGJ0b2EoYmluKTsKfQoKYXN5bmMgZnVuY3Rpb24gcmVhZERhdGEoKTogUHJvbWlzZTx7IGxpc3Q6IENlcnRpZmljYXRlW107IHNoYTogc3RyaW5nIH0+IHsKICBjb25zdCBmaWxlID0gYXdhaXQgZ2goYGNvbnRlbnRzL2RhdGEuanNvbj9yZWY9JHtSRVBPX0JSQU5DSH1gKTsKICBjb25zdCBsaXN0ID0gSlNPTi5wYXJzZShkZWNvZGVCYXNlNjRVdGY4KGZpbGUuY29udGVudCkpIGFzIENlcnRpZmljYXRlW107CiAgcmV0dXJuIHsgbGlzdCwgc2hhOiBmaWxlLnNoYSB9Owp9Cgphc3luYyBmdW5jdGlvbiB3cml0ZURhdGEobGlzdDogQ2VydGlmaWNhdGVbXSwgc2hhOiBzdHJpbmcsIG1lc3NhZ2U6IHN0cmluZykgewogIGF3YWl0IGdoKCJjb250ZW50cy9kYXRhLmpzb24iLCB7CiAgICBtZXRob2Q6ICJQVVQiLAogICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICBtZXNzYWdlLAogICAgICBjb250ZW50OiBlbmNvZGVVdGY4QmFzZTY0KEpTT04uc3RyaW5naWZ5KGxpc3QsIG51bGwsIDIpICsgIlxuIiksCiAgICAgIHNoYSwKICAgICAgYnJhbmNoOiBSRVBPX0JSQU5DSCwKICAgIH0pLAogIH0pOwp9CgpmdW5jdGlvbiBjaGVja1Bhc3N3b3JkKHBhc3N3b3JkOiBzdHJpbmcpIHsKICBjb25zdCBleHBlY3RlZCA9IHByb2Nlc3MuZW52WydBRE1JTl9QQVNTV09SRCddOwogIGlmICghZXhwZWN0ZWQpIHRocm93IG5ldyBFcnJvcigiQWRtaW4gcGFzc3dvcmQgaGFzIG5vdCBiZWVuIHNldCB1cCB5ZXQiKTsKICBpZiAocGFzc3dvcmQgIT09IGV4cGVjdGVkKSB0aHJvdyBuZXcgRXJyb3IoIldyb25nIHBhc3N3b3JkIik7Cn0KCmV4cG9ydCBjb25zdCBnZXRDZXJ0aWZpY2F0ZXMgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIkdFVCIgfSkuaGFuZGxlcihhc3luYyAoKSA9PiB7CiAgY29uc3QgeyBsaXN0IH0gPSBhd2FpdCByZWFkRGF0YSgpOwogIHJldHVybiBsaXN0Owp9KTsKCmV4cG9ydCBjb25zdCB2ZXJpZnlBZG1pbiA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAudmFsaWRhdG9yKChkOiB1bmtub3duKSA9PiB6Lm9iamVjdCh7IHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbigxKS5tYXgoMjAwKSB9KS5wYXJzZShkKSkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhIH0pID0+IHsKICAgIGNoZWNrUGFzc3dvcmQoZGF0YS5wYXNzd29yZCk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKY29uc3QgY2VydFNjaGVtYSA9IHoub2JqZWN0KHsKICBpZDogei5zdHJpbmcoKS50cmltKCkubWluKDEpLm1heCg0MCkucmVnZXgoL15bQS1aYS16MC05Xy1dKyQvKSwKICBjb3Vyc2VOYW1lOiB6LnN0cmluZygpLnRyaW0oKS5taW4oMSkubWF4KDIwMCksCiAgcGxhdGZvcm06IHouc3RyaW5nKCkudHJpbSgpLm1pbigxKS5tYXgoMTAwKSwKICBjb21wbGV0aW9uRGF0ZTogei5zdHJpbmcoKS50cmltKCkubWF4KDQwKSwKICBpbWFnZTogei5zdHJpbmcoKS5tYXgoNTAwKSwKICBkZXNjcmlwdGlvbjogei5zdHJpbmcoKS5tYXgoNTAwMCksCiAgb3ZlcnZpZXc6IHouc3RyaW5nKCkubWF4KDEwMDAwKS5vcHRpb25hbCgpLAogIGV4cGVyaWVuY2U6IHouc3RyaW5nKCkubWF4KDUwMDApLm9wdGlvbmFsKCksCiAgc2tpbGxzOiB6LmFycmF5KHouc3RyaW5nKCkubWF4KDYwKSkubWF4KDUwKSwKICBkdXJhdGlvbjogei5zdHJpbmcoKS5tYXgoNjApLm9wdGlvbmFsKCksCiAgc3RhdHVzOiB6LnN0cmluZygpLm1heCg0MCksCiAgcHJvamVjdExpbmtzOiB6CiAgICAuYXJyYXkoei5vYmplY3QoeyBuYW1lOiB6LnN0cmluZygpLm1heCg4MCksIHVybDogei5zdHJpbmcoKS51cmwoKS5tYXgoNTAwKSB9KSkKICAgIC5tYXgoMTApCiAgICAub3B0aW9uYWwoKSwKfSk7CgpleHBvcnQgY29uc3Qgc2F2ZUNlcnRpZmljYXRlID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC52YWxpZGF0b3IoKGQ6IHVua25vd24pID0+CiAgICB6CiAgICAgIC5vYmplY3QoewogICAgICAgIHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbigxKS5tYXgoMjAwKSwKICAgICAgICBvcmlnaW5hbElkOiB6LnN0cmluZygpLm1heCg0MCkub3B0aW9uYWwoKSwKICAgICAgICBjZXJ0OiBjZXJ0U2NoZW1hLAogICAgICAgIGZpbGU6IHoKICAgICAgICAgIC5vYmplY3QoewogICAgICAgICAgICBleHQ6IHouc3RyaW5nKCkucmVnZXgoL14ocG5nfGpwZ3xqcGVnfHdlYnB8Z2lmfHBkZikkL2kpLAogICAgICAgICAgICBiYXNlNjQ6IHouc3RyaW5nKCkubWF4KDE0XzAwMF8wMDApLAogICAgICAgICAgfSkKICAgICAgICAgIC5vcHRpb25hbCgpLAogICAgICB9KQogICAgICAucGFyc2UoZCksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY2hlY2tQYXNzd29yZChkYXRhLnBhc3N3b3JkKTsKICAgIGNvbnN0IGNlcnQ6IENlcnRpZmljYXRlID0geyAuLi5kYXRhLmNlcnQgfTsKCiAgICAvLyBOZXcgY2VydGlmaWNhdGVzIG5ldmVyIG92ZXJ3cml0ZSBhbiBleGlzdGluZyBvbmU6IHBpY2sgdGhlIG5leHQgZnJlZSBudW1iZXIgb24gdGhlIHNlcnZlci4KICAgIGlmICghZGF0YS5vcmlnaW5hbElkKSB7CiAgICAgIGNvbnN0IHsgbGlzdDogY3VycmVudCB9ID0gYXdhaXQgcmVhZERhdGEoKTsKICAgICAgY29uc3QgdGFrZW4gPSBuZXcgU2V0KGN1cnJlbnQubWFwKChjKSA9PiBjLmlkKSk7CiAgICAgIGlmICh0YWtlbi5oYXMoY2VydC5pZCkpIHsKICAgICAgICBsZXQgbiA9IGN1cnJlbnQucmVkdWNlKChtLCBjKSA9PiBNYXRoLm1heChtLCBOdW1iZXIoYy5pZC5tYXRjaCgvKFxkKykkLyk/LlsxXSA/PyAwKSksIDApICsgMTsKICAgICAgICB3aGlsZSAodGFrZW4uaGFzKGBETC0ke1N0cmluZyhuKS5wYWRTdGFydCgzLCAiMCIpfWApKSBuKys7CiAgICAgICAgY2VydC5pZCA9IGBETC0ke1N0cmluZyhuKS5wYWRTdGFydCgzLCAiMCIpfWA7CiAgICAgIH0KICAgIH0KCiAgICBpZiAoZGF0YS5maWxlKSB7CiAgICAgIGNvbnN0IHBhdGggPSBgaW1hZ2VzLyR7Y2VydC5pZH0uJHtkYXRhLmZpbGUuZXh0LnRvTG93ZXJDYXNlKCl9YDsKICAgICAgbGV0IGV4aXN0aW5nU2hhOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBnaChgY29udGVudHMvJHtwYXRofT9yZWY9JHtSRVBPX0JSQU5DSH1gKTsKICAgICAgICBleGlzdGluZ1NoYSA9IGV4aXN0aW5nLnNoYTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgZXhpc3RpbmdTaGEgPSB1bmRlZmluZWQ7CiAgICAgIH0KICAgICAgYXdhaXQgZ2goYGNvbnRlbnRzLyR7cGF0aH1gLCB7CiAgICAgICAgbWV0aG9kOiAiUFVUIiwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICBtZXNzYWdlOiBgVXBsb2FkIGNlcnRpZmljYXRlIGZpbGUgZm9yICR7Y2VydC5pZH1gLAogICAgICAgICAgY29udGVudDogZGF0YS5maWxlLmJhc2U2NCwKICAgICAgICAgIGJyYW5jaDogUkVQT19CUkFOQ0gsCiAgICAgICAgICAuLi4oZXhpc3RpbmdTaGEgPyB7IHNoYTogZXhpc3RpbmdTaGEgfSA6IHt9KSwKICAgICAgICB9KSwKICAgICAgfSk7CiAgICAgIGNlcnQuaW1hZ2UgPSBwYXRoOwogICAgfQoKICAgIGNvbnN0IHsgbGlzdCwgc2hhIH0gPSBhd2FpdCByZWFkRGF0YSgpOwogICAgY29uc3QgaWR4ID0gZGF0YS5vcmlnaW5hbElkID8gbGlzdC5maW5kSW5kZXgoKGMpID0+IGMuaWQgPT09IGRhdGEub3JpZ2luYWxJZCkgOiAtMTsKICAgIGlmIChpZHggPT09IC0xICYmIGxpc3Quc29tZSgoYykgPT4gYy5pZCA9PT0gY2VydC5pZCkpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKGBBIGNlcnRpZmljYXRlIHdpdGggbnVtYmVyICR7Y2VydC5pZH0gYWxyZWFkeSBleGlzdHNgKTsKICAgIH0KICAgIGlmIChpZHggPj0gMCkgbGlzdFtpZHhdID0gY2VydDsKICAgIGVsc2UgbGlzdC5wdXNoKGNlcnQpOwogICAgYXdhaXQgd3JpdGVEYXRhKGxpc3QsIHNoYSwgYCR7aWR4ID49IDAgPyAiVXBkYXRlIiA6ICJBZGQifSBjZXJ0aWZpY2F0ZSAke2NlcnQuaWR9YCk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGRlbGV0ZUNlcnRpZmljYXRlID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC52YWxpZGF0b3IoKGQ6IHVua25vd24pID0+CiAgICB6Lm9iamVjdCh7IHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbigxKS5tYXgoMjAwKSwgaWQ6IHouc3RyaW5nKCkubWluKDEpLm1heCg0MCkgfSkucGFyc2UoZCksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY2hlY2tQYXNzd29yZChkYXRhLnBhc3N3b3JkKTsKICAgIGNvbnN0IHsgbGlzdCwgc2hhIH0gPSBhd2FpdCByZWFkRGF0YSgpOwogICAgY29uc3QgcmVtb3ZlZCA9IGxpc3QuZmluZCgoYykgPT4gYy5pZCA9PT0gZGF0YS5pZCk7CiAgICBpZiAoIXJlbW92ZWQpIHRocm93IG5ldyBFcnJvcigiVGhhdCBjZXJ0aWZpY2F0ZSBubyBsb25nZXIgZXhpc3RzIik7CiAgICBjb25zdCBuZXh0ID0gbGlzdC5maWx0ZXIoKGMpID0+IGMuaWQgIT09IGRhdGEuaWQpOwogICAgYXdhaXQgd3JpdGVEYXRhKG5leHQsIHNoYSwgYFJlbW92ZSBjZXJ0aWZpY2F0ZSAke2RhdGEuaWR9YCk7CgogICAgLy8gQWxzbyByZW1vdmUgdGhlIHVwbG9hZGVkIGZpbGUgd2hlbiBpdCBsaXZlcyBpbiB0aGUgcmVwbyBhbmQgbm90aGluZyBlbHNlIHVzZXMgaXQuCiAgICBjb25zdCBpbWcgPSByZW1vdmVkLmltYWdlPy5yZXBsYWNlKC9eXC8vLCAiIik7CiAgICBjb25zdCBzdGlsbFVzZWQgPSBuZXh0LnNvbWUoKGMpID0+IGMuaW1hZ2U/LnJlcGxhY2UoL15cLy8sICIiKSA9PT0gaW1nKTsKICAgIGlmIChpbWcgJiYgL15pbWFnZXNcL1tBLVphLXowLTlfLi1dKyQvLnRlc3QoaW1nKSAmJiAhc3RpbGxVc2VkKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBnaChgY29udGVudHMvJHtpbWd9P3JlZj0ke1JFUE9fQlJBTkNIfWApOwogICAgICAgIGF3YWl0IGdoKGBjb250ZW50cy8ke2ltZ31gLCB7CiAgICAgICAgICBtZXRob2Q6ICJERUxFVEUiLAogICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBtZXNzYWdlOiBgUmVtb3ZlIGZpbGUgZm9yICR7ZGF0YS5pZH1gLCBzaGE6IGV4aXN0aW5nLnNoYSwgYnJhbmNoOiBSRVBPX0JSQU5DSCB9KSwKICAgICAgICB9KTsKICAgICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgICAgY29uc29sZS5lcnJvcigiQ291bGQgbm90IHJlbW92ZSBjZXJ0aWZpY2F0ZSBmaWxlIiwgZXJyKTsKICAgICAgfQogICAgfQogICAgcmV0dXJuIHsgb2s6IHRydWUgfTsKICB9KTsK
+import { createServerFn } from "@tanstack/react-start";
+import { z } from "zod";
+import { REPO_BRANCH, REPO_NAME, REPO_OWNER, type Certificate } from "./portfolio";
+
+const GATEWAY_URL = "https://connector-gateway.lovable.dev/github";
+const GITHUB_API = "https://api.github.com";
+
+// Writes (saving a certificate) need GitHub permission. Two ways to get it:
+//   1. GITHUB_TOKEN — a GitHub token you create yourself. Used when the site is
+//      hosted somewhere else (e.g. Vercel), where the Lovable connection isn't available.
+//   2. The Lovable GitHub connection (LOVABLE_API_KEY + GITHUB_API_KEY) — used here
+//      in the editor preview.
+async function gh(path: string, init?: RequestInit) {
+  const directToken = process.env["GITHUB_TOKEN"];
+  const lovableKey = process.env["LOVABLE_API_KEY"];
+  const ghKey = process.env["GITHUB_API_KEY"];
+
+  let url = `${GATEWAY_URL}/repos/${REPO_OWNER}/${REPO_NAME}/${path}`;
+  let headers: Record<string, string> = {
+    Accept: "application/vnd.github+json",
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${lovableKey}`,
+    "X-Connection-Api-Key": ghKey ?? "",
+  };
+
+  if (directToken) {
+    url = `${GITHUB_API}/repos/${REPO_OWNER}/${REPO_NAME}/${path}`;
+    headers = {
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${directToken}`,
+    };
+  } else if (!lovableKey || !ghKey) {
+    throw new Error(
+      "GitHub is not set up on this host — add GITHUB_TOKEN (a GitHub token with write access to the certificate repository) to the environment.",
+    );
+  }
+
+  const res = await fetch(url, { ...init, headers: { ...headers, ...(init?.headers ?? {}) } });
+  if (!res.ok) {
+    const body = await res.text();
+    console.error(`GitHub request failed [${res.status}]: ${body}`);
+    throw new Error(`GitHub request failed [${res.status}]: ${body}`);
+  }
+  return res.json();
+}
+
+function decodeBase64Utf8(b64: string) {
+  const bin = atob(b64.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+function encodeUtf8Base64(text: string) {
+  const bytes = new TextEncoder().encode(text);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+
+async function readData(): Promise<{ list: Certificate[]; sha: string }> {
+  const file = await gh(`contents/data.json?ref=${REPO_BRANCH}`);
+  const list = JSON.parse(decodeBase64Utf8(file.content)) as Certificate[];
+  return { list, sha: file.sha };
+}
+
+async function writeData(list: Certificate[], sha: string, message: string) {
+  await gh("contents/data.json", {
+    method: "PUT",
+    body: JSON.stringify({
+      message,
+      content: encodeUtf8Base64(JSON.stringify(list, null, 2) + "\n"),
+      sha,
+      branch: REPO_BRANCH,
+    }),
+  });
+}
+
+function checkPassword(password: string) {
+  const expected = process.env['ADMIN_PASSWORD'];
+  if (!expected) throw new Error("Admin password has not been set up yet");
+  if (password !== expected) throw new Error("Wrong password");
+}
+
+export const getCertificates = createServerFn({ method: "GET" }).handler(async () => {
+  // Public read: the repo is public, so fetch the list straight from GitHub's
+  // file server. This works on any host (Lovable, Vercel, ...) with no keys.
+  try {
+    const res = await fetch(
+      `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}/data.json?ts=${Date.now()}`,
+      { headers: { "Cache-Control": "no-cache" } },
+    );
+    if (res.ok) return (await res.json()) as Certificate[];
+  } catch {
+    // fall back to the connected GitHub account below
+  }
+  const { list } = await readData();
+  return list;
+});
+
+export const verifyAdmin = createServerFn({ method: "POST" })
+  .validator((d: unknown) => z.object({ password: z.string().min(1).max(200) }).parse(d))
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    return { ok: true };
+  });
+
+const certSchema = z.object({
+  id: z.string().trim().min(1).max(40).regex(/^[A-Za-z0-9_-]+$/),
+  courseName: z.string().trim().min(1).max(200),
+  platform: z.string().trim().min(1).max(100),
+  completionDate: z.string().trim().max(40),
+  image: z.string().max(500),
+  description: z.string().max(5000),
+  overview: z.string().max(10000).optional(),
+  experience: z.string().max(5000).optional(),
+  skills: z.array(z.string().max(60)).max(50),
+  duration: z.string().max(60).optional(),
+  status: z.string().max(40),
+  projectLinks: z
+    .array(z.object({ name: z.string().max(80), url: z.string().url().max(500) }))
+    .max(10)
+    .optional(),
+});
+
+export const saveCertificate = createServerFn({ method: "POST" })
+  .validator((d: unknown) =>
+    z
+      .object({
+        password: z.string().min(1).max(200),
+        originalId: z.string().max(40).optional(),
+        cert: certSchema,
+        file: z
+          .object({
+            ext: z.string().regex(/^(png|jpg|jpeg|webp|gif|pdf)$/i),
+            base64: z.string().max(14_000_000),
+          })
+          .optional(),
+      })
+      .parse(d),
+  )
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    const cert: Certificate = { ...data.cert };
+
+    // New certificates never overwrite an existing one: pick the next free number on the server.
+    if (!data.originalId) {
+      const { list: current } = await readData();
+      const taken = new Set(current.map((c) => c.id));
+      if (taken.has(cert.id)) {
+        let n = current.reduce((m, c) => Math.max(m, Number(c.id.match(/(\d+)$/)?.[1] ?? 0)), 0) + 1;
+        while (taken.has(`DL-${String(n).padStart(3, "0")}`)) n++;
+        cert.id = `DL-${String(n).padStart(3, "0")}`;
+      }
+    }
+
+    if (data.file) {
+      const path = `images/${cert.id}.${data.file.ext.toLowerCase()}`;
+      let existingSha: string | undefined;
+      try {
+        const existing = await gh(`contents/${path}?ref=${REPO_BRANCH}`);
+        existingSha = existing.sha;
+      } catch {
+        existingSha = undefined;
+      }
+      await gh(`contents/${path}`, {
+        method: "PUT",
+        body: JSON.stringify({
+          message: `Upload certificate file for ${cert.id}`,
+          content: data.file.base64,
+          branch: REPO_BRANCH,
+          ...(existingSha ? { sha: existingSha } : {}),
+        }),
+      });
+      cert.image = path;
+    }
+
+    const { list, sha } = await readData();
+    const idx = data.originalId ? list.findIndex((c) => c.id === data.originalId) : -1;
+    if (idx === -1 && list.some((c) => c.id === cert.id)) {
+      throw new Error(`A certificate with number ${cert.id} already exists`);
+    }
+    if (idx >= 0) list[idx] = cert;
+    else list.push(cert);
+    await writeData(list, sha, `${idx >= 0 ? "Update" : "Add"} certificate ${cert.id}`);
+    return { ok: true };
+  });
+
+export const deleteCertificate = createServerFn({ method: "POST" })
+  .validator((d: unknown) =>
+    z.object({ password: z.string().min(1).max(200), id: z.string().min(1).max(40) }).parse(d),
+  )
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    const { list, sha } = await readData();
+    const removed = list.find((c) => c.id === data.id);
+    if (!removed) throw new Error("That certificate no longer exists");
+    const next = list.filter((c) => c.id !== data.id);
+    await writeData(next, sha, `Remove certificate ${data.id}`);
+
+    // Also remove the uploaded file when it lives in the repo and nothing else uses it.
+    const img = removed.image?.replace(/^\//, "");
+    const stillUsed = next.some((c) => c.image?.replace(/^\//, "") === img);
+    if (img && /^images\/[A-Za-z0-9_.-]+$/.test(img) && !stillUsed) {
+      try {
+        const existing = await gh(`contents/${img}?ref=${REPO_BRANCH}`);
+        await gh(`contents/${img}`, {
+          method: "DELETE",
+          body: JSON.stringify({ message: `Remove file for ${data.id}`, sha: existing.sha, branch: REPO_BRANCH }),
+        });
+      } catch (err) {
+        console.error("Could not remove certificate file", err);
+      }
+    }
+    return { ok: true };
+  });

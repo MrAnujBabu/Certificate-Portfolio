@@ -1,1 +1,155 @@
-ZXhwb3J0IHR5cGUgSnNvbiA9CiAgfCBzdHJpbmcKICB8IG51bWJlcgogIHwgYm9vbGVhbgogIHwgbnVsbAogIHwgeyBba2V5OiBzdHJpbmddOiBKc29uIHwgdW5kZWZpbmVkIH0KICB8IEpzb25bXQoKZXhwb3J0IHR5cGUgRGF0YWJhc2UgPSB7CiAgLy8gQWxsb3dzIHRvIGF1dG9tYXRpY2FsbHkgaW5zdGFudGlhdGUgY3JlYXRlQ2xpZW50IHdpdGggcmlnaHQgb3B0aW9ucwogIC8vIGluc3RlYWQgb2YgY3JlYXRlQ2xpZW50PERhdGFiYXNlLCB7IFBvc3RncmVzdFZlcnNpb246ICdYWCcgfT4oVVJMLCBLRVkpCiAgX19JbnRlcm5hbFN1cGFiYXNlOiB7CiAgICBQb3N0Z3Jlc3RWZXJzaW9uOiAiMTQuMTgiCiAgfQogIHB1YmxpYzogewogICAgVGFibGVzOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIFZpZXdzOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIEZ1bmN0aW9uczogewogICAgICBbXyBpbiBuZXZlcl06IG5ldmVyCiAgICB9CiAgICBFbnVtczogewogICAgICBbXyBpbiBuZXZlcl06IG5ldmVyCiAgICB9CiAgICBDb21wb3NpdGVUeXBlczogewogICAgICBbXyBpbiBuZXZlcl06IG5ldmVyCiAgICB9CiAgfQp9Cgp0eXBlIERhdGFiYXNlV2l0aG91dEludGVybmFscyA9IE9taXQ8RGF0YWJhc2UsICJfX0ludGVybmFsU3VwYWJhc2UiPgoKdHlwZSBEZWZhdWx0U2NoZW1hID0gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0V4dHJhY3Q8a2V5b2YgRGF0YWJhc2UsICJwdWJsaWMiPl0KCmV4cG9ydCB0eXBlIFRhYmxlczwKICBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgKERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdICYgRGVmYXVsdFNjaGVtYVsiVmlld3MiXSkKICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIFRhYmxlTmFtZSBleHRlbmRzIChEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIChEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXSAmCiAgICAgICAgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVmlld3MiXSkKICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IChEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXSAmCiAgICAgIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlZpZXdzIl0pW1RhYmxlTmFtZV0gZXh0ZW5kcyB7CiAgICAgIFJvdzogaW5mZXIgUgogICAgfQogICAgPyBSCiAgICA6IG5ldmVyCiAgOiBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgKERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdICYKICAgICAgICBEZWZhdWx0U2NoZW1hWyJWaWV3cyJdKQogICAgPyAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJgogICAgICAgIERlZmF1bHRTY2hlbWFbIlZpZXdzIl0pW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNdIGV4dGVuZHMgewogICAgICAgIFJvdzogaW5mZXIgUgogICAgICB9CiAgICAgID8gUgogICAgICA6IG5ldmVyCiAgICA6IG5ldmVyCgpleHBvcnQgdHlwZSBUYWJsZXNJbnNlcnQ8CiAgRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBUYWJsZU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl1bVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgSW5zZXJ0OiBpbmZlciBJCiAgICB9CiAgICA/IEkKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXVtEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zXSBleHRlbmRzIHsKICAgICAgICBJbnNlcnQ6IGluZmVyIEkKICAgICAgfQogICAgICA/IEkKICAgICAgOiBuZXZlcgogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgVGFibGVzVXBkYXRlPAogIERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgVGFibGVOYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdW1RhYmxlTmFtZV0gZXh0ZW5kcyB7CiAgICAgIFVwZGF0ZTogaW5mZXIgVQogICAgfQogICAgPyBVCiAgICA6IG5ldmVyCiAgOiBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0KICAgID8gRGVmYXVsdFNjaGVtYVsiVGFibGVzIl1bRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc10gZXh0ZW5kcyB7CiAgICAgICAgVXBkYXRlOiBpbmZlciBVCiAgICAgIH0KICAgICAgPyBVCiAgICAgIDogbmV2ZXIKICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIEVudW1zPAogIERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIkVudW1zIl0KICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIEVudW1OYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkVudW1zIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJFbnVtcyJdW0VudW1OYW1lXQogIDogRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiRW51bXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJFbnVtcyJdW0RlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9uc10KICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIENvbXBvc2l0ZVR5cGVzPAogIFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiQ29tcG9zaXRlVHlwZXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgQ29tcG9zaXRlVHlwZU5hbWUgZXh0ZW5kcyAoUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW1B1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkNvbXBvc2l0ZVR5cGVzIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiQ29tcG9zaXRlVHlwZXMiXVtDb21wb3NpdGVUeXBlTmFtZV0KICA6IFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiQ29tcG9zaXRlVHlwZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdW1B1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zXQogICAgOiBuZXZlcgoKZXhwb3J0IGNvbnN0IENvbnN0YW50cyA9IHsKICBwdWJsaWM6IHsKICAgIEVudW1zOiB7fSwKICB9LAp9IGFzIGNvbnN0Cg==
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export type Database = {
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.18"
+  }
+  public: {
+    Tables: {
+      [_ in never]: never
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+}
+
+type DatabaseWithoutInternals = Omit<Database, "__InternalSupabase">
+
+type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
+
+export type Tables<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+      Row: infer R
+    }
+    ? R
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
+    : never
+
+export type TablesInsert<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Insert: infer I
+    }
+    ? I
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
+    : never
+
+export type TablesUpdate<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Update: infer U
+    }
+    ? U
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
+    : never
+
+export type Enums<
+  DefaultSchemaEnumNameOrOptions extends
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof DatabaseWithoutInternals },
+  EnumName extends (DefaultSchemaEnumNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never) = never,
+> = DefaultSchemaEnumNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
+
+export type CompositeTypes<
+  PublicCompositeTypeNameOrOptions extends
+    | keyof DefaultSchema["CompositeTypes"]
+    | { schema: keyof DatabaseWithoutInternals },
+  CompositeTypeName extends (PublicCompositeTypeNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    : never) = never,
+> = PublicCompositeTypeNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
+  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
+
+export const Constants = {
+  public: {
+    Enums: {},
+  },
+} as const
