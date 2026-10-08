@@ -162,27 +162,5 @@
         "url": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git"
       }
     ]
-  },
-  {
-    "id": "DL-008",
-    "courseName": "E2E Test Certificate (edited)",
-    "platform": "Playwright Academy",
-    "completionDate": "08 Oct 2026",
-    "image": "images/DL-008.png",
-    "description": "Temporary certificate created by an automated test. It will be deleted.",
-    "overview": "",
-    "experience": "",
-    "skills": [
-      "Testing",
-      "Automation"
-    ],
-    "duration": "1 minute",
-    "status": "Verified",
-    "projectLinks": [
-      {
-        "name": "Demo",
-        "url": "https://example.com/demo"
-      }
-    ]
   }
 ]
