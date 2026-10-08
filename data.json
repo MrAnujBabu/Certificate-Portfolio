@@ -162,19 +162,5 @@
         "url": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git"
       }
     ]
-  },
-  {
-    "id": "DL-008",
-    "courseName": "E2E Test Cert Edited",
-    "platform": "Test Academy",
-    "completionDate": "01 Oct 2026",
-    "image": "images/DL-008.png",
-    "description": "Automated test entry.",
-    "overview": "",
-    "experience": "",
-    "skills": [],
-    "duration": "",
-    "status": "Verified",
-    "projectLinks": []
   }
 ]
