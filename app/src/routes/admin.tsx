@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
+import { sortAndFilter } from "@/lib/cert-list";
 import { toast } from "sonner";
 import { ArrowLeft, Award, FileUp, Loader2, Lock, MessageSquare, Pencil, Plus, Trash2, X, Check, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -75,6 +76,10 @@ function Dashboard({ password, onLogout }: { password: string; onLogout: () => v
   const qc = useQueryClient();
   const [editing, setEditing] = useState<Certificate | "new" | null>(null);
   const [tab, setTab] = useState<"certs" | "messages">("certs");
+  const [q, setQ] = useState("");
+  const [filter, setFilter] = useState("all");
+  const [sort, setSort] = useState("newest");
+  const shown = sortAndFilter(data ?? [], q, filter, sort);
   const messages = useQuery({
     queryKey: ["contact-messages", password],
     queryFn: () => listContactMessages({ data: { password } }),
@@ -135,9 +140,33 @@ function Dashboard({ password, onLogout }: { password: string; onLogout: () => v
             <Plus className="h-5 w-5" /> Add a new certificate or project
           </Button>
 
-          <div className="mt-6 space-y-3">
+          <div className="mt-6 grid gap-2 sm:grid-cols-3">
+            <input
+              aria-label="Search"
+              placeholder="Search name or place…"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              className="h-10 rounded-lg border border-border bg-card px-3 text-sm"
+            />
+            <select aria-label="Filter" value={filter} onChange={(e) => setFilter(e.target.value)} className="h-10 rounded-lg border border-border bg-card px-3 text-sm">
+              <option value="all">All</option>
+              <option value="Verified">Finished only</option>
+              <option value="In Progress">Still learning only</option>
+            </select>
+            <select aria-label="Order" value={sort} onChange={(e) => setSort(e.target.value)} className="h-10 rounded-lg border border-border bg-card px-3 text-sm">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="az">Name A–Z</option>
+              <option value="za">Name Z–A</option>
+              <option value="id">By number (DL-001…)</option>
+            </select>
+          </div>
+          <p className="mt-2 text-xs text-muted-foreground">Showing {shown.length} of {data?.length ?? 0}</p>
+
+          <div className="mt-3 space-y-3">
             {isLoading && <Loader2 className="mx-auto h-6 w-6 animate-spin text-muted-foreground" />}
-            {data?.map((c) => (
+            {!isLoading && shown.length === 0 && <p className="text-center text-sm text-muted-foreground">Nothing matches.</p>}
+            {shown.map((c) => (
               <div key={c.id} className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
                 <div className="min-w-0 flex-1">
                   <p className="truncate font-semibold">{c.courseName}</p>
