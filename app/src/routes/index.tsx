@@ -101,8 +101,18 @@ function Home() {
       <section id="top" className="bg-hero">
         <div className="mx-auto max-w-6xl px-5 py-12 text-center md:py-24">
           <div className="relative mx-auto mb-6 w-fit">
-            <div className="flex h-28 w-28 items-center justify-center rounded-full bg-primary text-primary-foreground ring-4 ring-primary/25 shadow-[0_0_60px_-10px_oklch(0.651_0.124_119.4)]">
-              <GraduationCap className="h-14 w-14" />
+            <div className="rounded-full border-2 border-primary/70 p-1 shadow-[0_0_70px_-5px_oklch(0.651_0.124_119.4)]">
+              <div className="rounded-full bg-background p-1">
+                <div className="flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary/75 text-foreground">
+                  <svg viewBox="0 0 64 64" className="h-14 w-14" fill="currentColor" aria-label="Graduate">
+                    <path d="M32 4 6 13l26 9 26-9-26-9Z" />
+                    <rect x="11" y="14" width="3" height="14" rx="1" />
+                    <path d="M8 28h9l-1.5 7h-6L8 28Z" />
+                    <path d="M19 19v6c0 7 6 13 13 13s13-6 13-13v-6l-13 4.5L19 19Z" />
+                    <path d="M14 60c0-10 6-17 12-18l6 8 6-8c6 1 12 8 12 18H14Z" />
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-3">
