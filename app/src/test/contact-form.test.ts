@@ -1,1 +1,29 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjb250YWN0U2NoZW1hIH0gZnJvbSAiQC9saWIvY29udGFjdC5mdW5jdGlvbnMiOwoKLy8gVGhlIHJ1bGVzIHRoZSBjb250YWN0IGZvcm0gb24gdGhlIHNpdGUgZW5mb3JjZXMgYmVmb3JlIGEgbWVzc2FnZSBpcyBzYXZlZC4KZGVzY3JpYmUoIkNvbnRhY3QgZm9ybSBydWxlcyIsICgpID0+IHsKICBjb25zdCBnb29kID0geyBuYW1lOiAiUHJpeWEgU2hhcm1hIiwgZW1haWw6ICJwcml5YUBleGFtcGxlLmNvbSIsIG1lc3NhZ2U6ICJIZWxsbyB0aGVyZSIgfTsKCiAgaXQoImFjY2VwdHMgYSBjb21wbGV0ZSBtZXNzYWdlIiwgKCkgPT4gewogICAgZXhwZWN0KGNvbnRhY3RTY2hlbWEuc2FmZVBhcnNlKGdvb2QpLnN1Y2Nlc3MpLnRvQmUodHJ1ZSk7CiAgfSk7CgogIGl0KCJyZWplY3RzIGEgbWVzc2FnZSB3aXRoIG5vIG5hbWUiLCAoKSA9PiB7CiAgICBleHBlY3QoY29udGFjdFNjaGVtYS5zYWZlUGFyc2UoeyAuLi5nb29kLCBuYW1lOiAiICAgIiB9KS5zdWNjZXNzKS50b0JlKGZhbHNlKTsKICB9KTsKCiAgaXQoInJlamVjdHMgYW4gZW1haWwgYWRkcmVzcyB3aXRoIG5vIEAiLCAoKSA9PiB7CiAgICBleHBlY3QoY29udGFjdFNjaGVtYS5zYWZlUGFyc2UoeyAuLi5nb29kLCBlbWFpbDogInByaXlhLWF0LWV4YW1wbGUiIH0pLnN1Y2Nlc3MpLnRvQmUoZmFsc2UpOwogIH0pOwoKICBpdCgicmVqZWN0cyBhIG1lc3NhZ2UgbG9uZ2VyIHRoYW4gMjAwMCBjaGFyYWN0ZXJzLCBhbmQgYWNjZXB0cyBleGFjdGx5IDIwMDAiLCAoKSA9PiB7CiAgICBleHBlY3QoY29udGFjdFNjaGVtYS5zYWZlUGFyc2UoeyAuLi5nb29kLCBtZXNzYWdlOiAiYSIucmVwZWF0KDIwMDEpIH0pLnN1Y2Nlc3MpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGNvbnRhY3RTY2hlbWEuc2FmZVBhcnNlKHsgLi4uZ29vZCwgbWVzc2FnZTogImEiLnJlcGVhdCgyMDAwKSB9KS5zdWNjZXNzKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgic3RyaXBzIHRoZSBleHRyYSBzcGFjZXMgYXJvdW5kIGEgbmFtZSBiZWZvcmUgc2F2aW5nIiwgKCkgPT4gewogICAgY29uc3QgcGFyc2VkID0gY29udGFjdFNjaGVtYS5wYXJzZSh7IC4uLmdvb2QsIG5hbWU6ICIgIFByaXlhIFNoYXJtYSAgIiB9KTsKICAgIGV4cGVjdChwYXJzZWQubmFtZSkudG9CZSgiUHJpeWEgU2hhcm1hIik7CiAgfSk7Cn0pOwo=
+import { describe, expect, it } from "vitest";
+import { contactSchema } from "@/lib/contact.functions";
+
+// The rules the contact form on the site enforces before a message is saved.
+describe("Contact form rules", () => {
+  const good = { name: "Priya Sharma", email: "priya@example.com", message: "Hello there" };
+
+  it("accepts a complete message", () => {
+    expect(contactSchema.safeParse(good).success).toBe(true);
+  });
+
+  it("rejects a message with no name", () => {
+    expect(contactSchema.safeParse({ ...good, name: "   " }).success).toBe(false);
+  });
+
+  it("rejects an email address with no @", () => {
+    expect(contactSchema.safeParse({ ...good, email: "priya-at-example" }).success).toBe(false);
+  });
+
+  it("rejects a message longer than 2000 characters, and accepts exactly 2000", () => {
+    expect(contactSchema.safeParse({ ...good, message: "a".repeat(2001) }).success).toBe(false);
+    expect(contactSchema.safeParse({ ...good, message: "a".repeat(2000) }).success).toBe(true);
+  });
+
+  it("strips the extra spaces around a name before saving", () => {
+    const parsed = contactSchema.parse({ ...good, name: "  Priya Sharma  " });
+    expect(parsed.name).toBe("Priya Sharma");
+  });
+});

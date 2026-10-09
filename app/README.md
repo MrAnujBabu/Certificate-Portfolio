@@ -1,1 +1,29 @@
-IyBXZWxjb21lIHRvIHlvdXIgTG92YWJsZSBwcm9qZWN0CgpUaGlzIHByb2plY3Qgd2FzIGJ1aWx0IHdpdGggW0xvdmFibGVdKGh0dHBzOi8vbG92YWJsZS5kZXYpLgoKIyMgQnVpbGQgd2l0aCBMb3ZhYmxlCgpPcGVuIHlvdXIgcHJvamVjdCBpbiB0aGUgW0xvdmFibGUgZWRpdG9yXShodHRwczovL2xvdmFibGUuZGV2KSBhbmQga2VlcCBidWlsZGluZy4KCi0gKipTaGlwIGZhc3RlcioqOiBkZXNjcmliZSB3aGF0IHlvdSB3YW50IHRvIGJ1aWxkIGFuZCBMb3ZhYmxlIGhhbmRsZXMgdGhlIGNvZGUuCi0gKipTdGF5IGluIHN5bmMqKjogY29ubmVjdCB0aGUgcHJvamVjdCB0byBHaXRIdWIgYW5kIGV2ZXJ5IGNoYW5nZSBtYWRlIGluIExvdmFibGUgaXMgY29tbWl0dGVkIHN0cmFpZ2h0IHRvIHlvdXIgcmVwb3NpdG9yeS4KLSAqKkZ1bGwgb3duZXJzaGlwKio6IHRoaXMgY29kZSBpcyB5b3Vycy4gUHVzaCB0byB5b3VyIHJlcG9zaXRvcnkgYW5kIHlvdXIgY2hhbmdlcyBzeW5jIGJhY2sgaW50byBMb3ZhYmxlLCByZWFkeSBmb3IgeW91ciBuZXh0IHByb21wdC4KCiMjIERldmVsb3BtZW50CgpQcmVmZXIgd29ya2luZyBsb2NhbGx5PyBZb3UgbmVlZCBOb2RlLmpzIGFuZCBucG0g4oCUIFtpbnN0YWxsIHdpdGggbnZtXShodHRwczovL2dpdGh1Yi5jb20vbnZtLXNoL252bSNpbnN0YWxsaW5nLWFuZC11cGRhdGluZykuCgpgYGBzaApnaXQgY2xvbmUgPHRoaXMtcmVwb3NpdG9yeS11cmw+CmNkIDxyZXBvc2l0b3J5LW5hbWU+Cm5wbSBpCm5wbSBydW4gZGV2CmBgYAoKIyMgQnVpbHQgd2l0aAoKLSBUYW5TdGFjayBTdGFydAotIFR5cGVTY3JpcHQKLSBSZWFjdAotIFRhaWx3aW5kIENTUwo=
+# Welcome to your Lovable project
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
+
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS

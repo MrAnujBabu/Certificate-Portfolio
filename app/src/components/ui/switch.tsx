@@ -1,1 +1,27 @@
-aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAicmVhY3QiOwppbXBvcnQgKiBhcyBTd2l0Y2hQcmltaXRpdmVzIGZyb20gIkByYWRpeC11aS9yZWFjdC1zd2l0Y2giOwoKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscyI7Cgpjb25zdCBTd2l0Y2ggPSBSZWFjdC5mb3J3YXJkUmVmPAogIFJlYWN0LkVsZW1lbnRSZWY8dHlwZW9mIFN3aXRjaFByaW1pdGl2ZXMuUm9vdD4sCiAgUmVhY3QuQ29tcG9uZW50UHJvcHNXaXRob3V0UmVmPHR5cGVvZiBTd2l0Y2hQcmltaXRpdmVzLlJvb3Q+Cj4oKHsgY2xhc3NOYW1lLCAuLi5wcm9wcyB9LCByZWYpID0+ICgKICA8U3dpdGNoUHJpbWl0aXZlcy5Sb290CiAgICBjbGFzc05hbWU9e2NuKAogICAgICAicGVlciBpbmxpbmUtZmxleCBoLTUgdy05IHNocmluay0wIGN1cnNvci1wb2ludGVyIGl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLXRyYW5zcGFyZW50IHNoYWRvdy1zbSB0cmFuc2l0aW9uLWNvbG9ycyBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyBmb2N1cy12aXNpYmxlOnJpbmctb2Zmc2V0LTIgZm9jdXMtdmlzaWJsZTpyaW5nLW9mZnNldC1iYWNrZ3JvdW5kIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIGRhdGEtW3N0YXRlPWNoZWNrZWRdOmJnLXByaW1hcnkgZGF0YS1bc3RhdGU9dW5jaGVja2VkXTpiZy1pbnB1dCIsCiAgICAgIGNsYXNzTmFtZSwKICAgICl9CiAgICB7Li4ucHJvcHN9CiAgICByZWY9e3JlZn0KICA+CiAgICA8U3dpdGNoUHJpbWl0aXZlcy5UaHVtYgogICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICJwb2ludGVyLWV2ZW50cy1ub25lIGJsb2NrIGgtNCB3LTQgcm91bmRlZC1mdWxsIGJnLWJhY2tncm91bmQgc2hhZG93LWxnIHJpbmctMCB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkYXRhLVtzdGF0ZT1jaGVja2VkXTp0cmFuc2xhdGUteC00IGRhdGEtW3N0YXRlPXVuY2hlY2tlZF06dHJhbnNsYXRlLXgtMCIsCiAgICAgICl9CiAgICAvPgogIDwvU3dpdGNoUHJpbWl0aXZlcy5Sb290PgopKTsKU3dpdGNoLmRpc3BsYXlOYW1lID0gU3dpdGNoUHJpbWl0aXZlcy5Sb290LmRpc3BsYXlOYW1lOwoKZXhwb3J0IHsgU3dpdGNoIH07Cg==
+import * as React from "react";
+import * as SwitchPrimitives from "@radix-ui/react-switch";
+
+import { cn } from "@/lib/utils";
+
+const Switch = React.forwardRef<
+  React.ElementRef<typeof SwitchPrimitives.Root>,
+  React.ComponentPropsWithoutRef<typeof SwitchPrimitives.Root>
+>(({ className, ...props }, ref) => (
+  <SwitchPrimitives.Root
+    className={cn(
+      "peer inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input",
+      className,
+    )}
+    {...props}
+    ref={ref}
+  >
+    <SwitchPrimitives.Thumb
+      className={cn(
+        "pointer-events-none block h-4 w-4 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0",
+      )}
+    />
+  </SwitchPrimitives.Root>
+));
+Switch.displayName = SwitchPrimitives.Root.displayName;
+
+export { Switch };

@@ -1,1 +1,97 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAc3VwYWJhc2Uvc3VwYWJhc2UtanMiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHR5cGUgeyBEYXRhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL3R5cGVzIjsKaW1wb3J0IHsgY2hlY2tQYXNzd29yZCB9IGZyb20gIi4vcG9ydGZvbGlvLmZ1bmN0aW9ucyI7CgovLyBNZXNzYWdlcyBjb21lIGluIGZyb20gYW55b25lIHZpc2l0aW5nIHRoZSBzaXRlLCBzbyB0aGUgd3JpdGUgZ29lcyB0aHJvdWdoIHRoZQovLyBwdWJsaWMgZGF0YWJhc2Uga2V5IOKAlCB0aGUgZGF0YWJhc2UgaXRzZWxmIG9ubHkgYWxsb3dzICJhZGQgYSBtZXNzYWdlIiBmb3IKLy8gdmlzaXRvcnMsIGFuZCBuZXZlciBsZXRzIHRoZW0gcmVhZCB0aGUgbGlzdC4gUmVhZGluZyBtZXNzYWdlcyBuZWVkcyB0aGUKLy8gYWRtaW4gcGFzc3dvcmQsIHNvIHRob3NlIGZ1bmN0aW9ucyB1c2UgdGhlIHByaXZpbGVnZWQga2V5IGluc2lkZSB0aGUgaGFuZGxlci4KZnVuY3Rpb24gcHVibGljQ2xpZW50KCkgewogIGNvbnN0IHVybCA9IHByb2Nlc3MuZW52WyJTVVBBQkFTRV9VUkwiXTsKICBjb25zdCBrZXkgPSBwcm9jZXNzLmVudlsiU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZIl0gPz8gcHJvY2Vzcy5lbnZbIlNVUEFCQVNFX0FOT05fS0VZIl07CiAgaWYgKCF1cmwgfHwgIWtleSkgdGhyb3cgbmV3IEVycm9yKCJUaGUgc2l0ZSBpcyBub3QgY29ubmVjdGVkIHRvIGl0cyBkYXRhYmFzZSBvbiB0aGlzIGhvc3QuIik7CiAgcmV0dXJuIGNyZWF0ZUNsaWVudDxEYXRhYmFzZT4odXJsLCBrZXksIHsKICAgIGF1dGg6IHsgc3RvcmFnZTogdW5kZWZpbmVkLCBwZXJzaXN0U2Vzc2lvbjogZmFsc2UsIGF1dG9SZWZyZXNoVG9rZW46IGZhbHNlIH0sCiAgICBnbG9iYWw6IHsKICAgICAgZmV0Y2g6IChpbnB1dCwgaW5pdCkgPT4gewogICAgICAgIGNvbnN0IGggPSBuZXcgSGVhZGVycyhpbml0Py5oZWFkZXJzKTsKICAgICAgICBpZiAoa2V5LnN0YXJ0c1dpdGgoInNiXyIpICYmIGguZ2V0KCJBdXRob3JpemF0aW9uIikgPT09IGBCZWFyZXIgJHtrZXl9YCkgaC5kZWxldGUoIkF1dGhvcml6YXRpb24iKTsKICAgICAgICBoLnNldCgiYXBpa2V5Iiwga2V5KTsKICAgICAgICByZXR1cm4gZmV0Y2goaW5wdXQsIHsgLi4uaW5pdCwgaGVhZGVyczogaCB9KTsKICAgICAgfSwKICAgIH0sCiAgfSk7Cn0KCmV4cG9ydCBjb25zdCBjb250YWN0U2NoZW1hID0gei5vYmplY3QoewogIG5hbWU6IHouc3RyaW5nKCkudHJpbSgpLm1pbigxLCAiUGxlYXNlIHRlbGwgdXMgeW91ciBuYW1lIikubWF4KDEwMCksCiAgZW1haWw6IHoKICAgIC5zdHJpbmcoKQogICAgLnRyaW0oKQogICAgLmVtYWlsKCJUaGF0IGVtYWlsIGFkZHJlc3MgZG9lc24ndCBsb29rIHJpZ2h0IikKICAgIC5tYXgoMjU1LCAiVGhhdCBlbWFpbCBhZGRyZXNzIGlzIHRvbyBsb25nIiksCiAgbWVzc2FnZTogei5zdHJpbmcoKS50cmltKCkubWluKDEsICJQbGVhc2Ugd3JpdGUgYSBtZXNzYWdlIikubWF4KDIwMDAsICJQbGVhc2Uga2VlcCB5b3VyIG1lc3NhZ2UgdW5kZXIgMjAwMCBjaGFyYWN0ZXJzIiksCiAgLy8gSGlkZGVuIGZpZWxkIHJlYWwgcGVvcGxlIG5ldmVyIGZpbGwgaW4g4oCUIGJvdHMgZG8sIHNvIHRob3NlIHN1Ym1pc3Npb25zIGFyZSBkcm9wcGVkLgogIGNvbXBhbnk6IHouc3RyaW5nKCkubWF4KDIwMCkub3B0aW9uYWwoKSwKfSk7CgpleHBvcnQgY29uc3Qgc3VibWl0Q29udGFjdCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAudmFsaWRhdG9yKChkOiB1bmtub3duKSA9PiBjb250YWN0U2NoZW1hLnBhcnNlKGQpKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgaWYgKGRhdGEuY29tcGFueSkgcmV0dXJuIHsgb2s6IHRydWUgfTsgLy8gbG9va3MgbGlrZSBhIGJvdDogcHJldGVuZCBpdCB3b3JrZWQsIHNhdmUgbm90aGluZwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgcHVibGljQ2xpZW50KCkuZnJvbSgiY29udGFjdF9tZXNzYWdlcyIpLmluc2VydCh7CiAgICAgIG5hbWU6IGRhdGEubmFtZSwKICAgICAgZW1haWw6IGRhdGEuZW1haWwsCiAgICAgIG1lc3NhZ2U6IGRhdGEubWVzc2FnZSwKICAgIH0pOwogICAgaWYgKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoYE1lc3NhZ2UgY291bGQgbm90IGJlIHNhdmVkIFske2Vycm9yLmNvZGUgPz8gIj8ifV06ICR7ZXJyb3IubWVzc2FnZX1gKTsKICAgICAgdGhyb3cgbmV3IEVycm9yKCJZb3VyIG1lc3NhZ2UgY291bGQgbm90IGJlIHNlbnQuIFBsZWFzZSB0cnkgYWdhaW4gaW4gYSBtb21lbnQuIik7CiAgICB9CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGxpc3RDb250YWN0TWVzc2FnZXMgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLnZhbGlkYXRvcigoZDogdW5rbm93bikgPT4gei5vYmplY3QoeyBwYXNzd29yZDogei5zdHJpbmcoKS5taW4oMSkubWF4KDIwMCkgfSkucGFyc2UoZCkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KSA9PiB7CiAgICBjaGVja1Bhc3N3b3JkKGRhdGEucGFzc3dvcmQpOwogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4KICAgICAgLmZyb20oImNvbnRhY3RfbWVzc2FnZXMiKQogICAgICAuc2VsZWN0KCJpZCwgbmFtZSwgZW1haWwsIG1lc3NhZ2UsIGlzX3JlYWQsIGNyZWF0ZWRfYXQiKQogICAgICAub3JkZXIoImNyZWF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSkKICAgICAgLmxpbWl0KDIwMCk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcihgTWVzc2FnZXMgY291bGQgbm90IGJlIHJlYWQgWyR7ZXJyb3IuY29kZSA/PyAiPyJ9XTogJHtlcnJvci5tZXNzYWdlfWApOwogICAgICB0aHJvdyBuZXcgRXJyb3IoIk1lc3NhZ2VzIGNvdWxkIG5vdCBiZSBsb2FkZWQgcmlnaHQgbm93LiIpOwogICAgfQogICAgcmV0dXJuIHJvd3MgPz8gW107CiAgfSk7CgpleHBvcnQgY29uc3QgbWFya0NvbnRhY3RSZWFkID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC52YWxpZGF0b3IoKGQ6IHVua25vd24pID0+IHoub2JqZWN0KHsgcGFzc3dvcmQ6IHouc3RyaW5nKCkubWluKDEpLm1heCgyMDApLCBpZDogei5zdHJpbmcoKS51dWlkKCkgfSkucGFyc2UoZCkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KSA9PiB7CiAgICBjaGVja1Bhc3N3b3JkKGRhdGEucGFzc3dvcmQpOwogICAgY29uc3QgeyBzdXBhYmFzZUFkbWluIH0gPSBhd2FpdCBpbXBvcnQoIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudC5zZXJ2ZXIiKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlQWRtaW4uZnJvbSgiY29udGFjdF9tZXNzYWdlcyIpLnVwZGF0ZSh7IGlzX3JlYWQ6IHRydWUgfSkuZXEoImlkIiwgZGF0YS5pZCk7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcihgTWVzc2FnZSBjb3VsZCBub3QgYmUgbWFya2VkIHJlYWQgWyR7ZXJyb3IuY29kZSA/PyAiPyJ9XTogJHtlcnJvci5tZXNzYWdlfWApOwogICAgICB0aHJvdyBuZXcgRXJyb3IoIkNvdWxkIG5vdCB1cGRhdGUgdGhhdCBtZXNzYWdlLiIpOwogICAgfQogICAgcmV0dXJuIHsgb2s6IHRydWUgfTsKICB9KTsKCmV4cG9ydCBjb25zdCBkZWxldGVDb250YWN0TWVzc2FnZSA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAudmFsaWRhdG9yKChkOiB1bmtub3duKSA9PiB6Lm9iamVjdCh7IHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbigxKS5tYXgoMjAwKSwgaWQ6IHouc3RyaW5nKCkudXVpZCgpIH0pLnBhcnNlKGQpKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY2hlY2tQYXNzd29yZChkYXRhLnBhc3N3b3JkKTsKICAgIGNvbnN0IHsgc3VwYWJhc2VBZG1pbiB9ID0gYXdhaXQgaW1wb3J0KCJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQuc2VydmVyIik7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZUFkbWluLmZyb20oImNvbnRhY3RfbWVzc2FnZXMiKS5kZWxldGUoKS5lcSgiaWQiLCBkYXRhLmlkKTsKICAgIGlmIChlcnJvcikgewogICAgICBjb25zb2xlLmVycm9yKGBNZXNzYWdlIGNvdWxkIG5vdCBiZSBkZWxldGVkIFske2Vycm9yLmNvZGUgPz8gIj8ifV06ICR7ZXJyb3IubWVzc2FnZX1gKTsKICAgICAgdGhyb3cgbmV3IEVycm9yKCJDb3VsZCBub3QgZGVsZXRlIHRoYXQgbWVzc2FnZS4iKTsKICAgIH0KICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7Cg==
+import { createServerFn } from "@tanstack/react-start";
+import { createClient } from "@supabase/supabase-js";
+import { z } from "zod";
+import type { Database } from "@/integrations/supabase/types";
+import { checkPassword } from "./portfolio.functions";
+
+// Messages come in from anyone visiting the site, so the write goes through the
+// public database key — the database itself only allows "add a message" for
+// visitors, and never lets them read the list. Reading messages needs the
+// admin password, so those functions use the privileged key inside the handler.
+function publicClient() {
+  const url = process.env["SUPABASE_URL"];
+  const key = process.env["SUPABASE_PUBLISHABLE_KEY"] ?? process.env["SUPABASE_ANON_KEY"];
+  if (!url || !key) throw new Error("The site is not connected to its database on this host.");
+  return createClient<Database>(url, key, {
+    auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
+    global: {
+      fetch: (input, init) => {
+        const h = new Headers(init?.headers);
+        if (key.startsWith("sb_") && h.get("Authorization") === `Bearer ${key}`) h.delete("Authorization");
+        h.set("apikey", key);
+        return fetch(input, { ...init, headers: h });
+      },
+    },
+  });
+}
+
+export const contactSchema = z.object({
+  name: z.string().trim().min(1, "Please tell us your name").max(100),
+  email: z
+    .string()
+    .trim()
+    .email("That email address doesn't look right")
+    .max(255, "That email address is too long"),
+  message: z.string().trim().min(1, "Please write a message").max(2000, "Please keep your message under 2000 characters"),
+  // Hidden field real people never fill in — bots do, so those submissions are dropped.
+  company: z.string().max(200).optional(),
+});
+
+export const submitContact = createServerFn({ method: "POST" })
+  .validator((d: unknown) => contactSchema.parse(d))
+  .handler(async ({ data }) => {
+    if (data.company) return { ok: true }; // looks like a bot: pretend it worked, save nothing
+    const { error } = await publicClient().from("contact_messages").insert({
+      name: data.name,
+      email: data.email,
+      message: data.message,
+    });
+    if (error) {
+      console.error(`Message could not be saved [${error.code ?? "?"}]: ${error.message}`);
+      throw new Error("Your message could not be sent. Please try again in a moment.");
+    }
+    return { ok: true };
+  });
+
+export const listContactMessages = createServerFn({ method: "POST" })
+  .validator((d: unknown) => z.object({ password: z.string().min(1).max(200) }).parse(d))
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { data: rows, error } = await supabaseAdmin
+      .from("contact_messages")
+      .select("id, name, email, message, is_read, created_at")
+      .order("created_at", { ascending: false })
+      .limit(200);
+    if (error) {
+      console.error(`Messages could not be read [${error.code ?? "?"}]: ${error.message}`);
+      throw new Error("Messages could not be loaded right now.");
+    }
+    return rows ?? [];
+  });
+
+export const markContactRead = createServerFn({ method: "POST" })
+  .validator((d: unknown) => z.object({ password: z.string().min(1).max(200), id: z.string().uuid() }).parse(d))
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin.from("contact_messages").update({ is_read: true }).eq("id", data.id);
+    if (error) {
+      console.error(`Message could not be marked read [${error.code ?? "?"}]: ${error.message}`);
+      throw new Error("Could not update that message.");
+    }
+    return { ok: true };
+  });
+
+export const deleteContactMessage = createServerFn({ method: "POST" })
+  .validator((d: unknown) => z.object({ password: z.string().min(1).max(200), id: z.string().uuid() }).parse(d))
+  .handler(async ({ data }) => {
+    checkPassword(data.password);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const { error } = await supabaseAdmin.from("contact_messages").delete().eq("id", data.id);
+    if (error) {
+      console.error(`Message could not be deleted [${error.code ?? "?"}]: ${error.message}`);
+      throw new Error("Could not delete that message.");
+    }
+    return { ok: true };
+  });
