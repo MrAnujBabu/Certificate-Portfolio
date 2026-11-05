@@ -166,5 +166,34 @@
         "url": "https://github.com/MrAnujBabu/craw4ai_anuj_web_crawl_agent.git"
       }
     ]
+  },
+  {
+    "id": "DL-008",
+    "courseName": "Naveen Bharat Files — PDF & Notes Library",
+    "platform": "GitHub Storage + Telegram Bot",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-008.png",
+    "description": "My file storage library — PDFs, notes and images kept on GitHub and delivered through a CDN, plus a Telegram-bot powered digital library.",
+    "overview": "📚 **What this is**\n• PDFs, notes and images stored on GitHub, delivered fast through a CDN\n• Search by file type, folder or name, and copy any file link in one tap\n• A second library run by the Mr Anuj Telegram Storage bot for JSR Coaching\n\n🔗 **How to open**\n• PDF by GitHub storage — the GitHub CDN library\n• PDF storage by Telegram bot — the Telegram digital library",
+    "experience": "Both libraries are live and open straight from this card.",
+    "skills": [
+      "File storage",
+      "GitHub",
+      "CDN delivery",
+      "Telegram bot",
+      "Digital library"
+    ],
+    "duration": "Ongoing",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "PDF by GitHub storage",
+        "url": "https://github-storages-cdn.vercel.app/"
+      },
+      {
+        "name": "PDF storage by Telegram bot",
+        "url": "https://storage-naveenbharat-recording.vercel.app/"
+      }
+    ]
   }
 ]
