@@ -189,7 +189,7 @@ function Home() {
       <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
         <div className="mb-5 flex flex-wrap justify-center gap-3">
           <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu/Certificate-Portfolio" target="_blank" rel="noreferrer"><Github className="h-4 w-4" /> Source Code</a></Button>
-          <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu" target="_blank" rel="noreferrer"><FileText className="h-4 w-4" /> Resume</a></Button>
+          <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu/Certificate-Portfolio/blob/main/resume/Anuj_Kumar_Yadav_Resume.pdf" target="_blank" rel="noreferrer"><FileText className="h-4 w-4" /> Resume</a></Button>
           <Button asChild size="sm" variant="secondary"><a href="https://github.com/MrAnujBabu?tab=repositories" target="_blank" rel="noreferrer"><FolderGit2 className="h-4 w-4" /> Projects</a></Button>
         </div>
         <p>© {new Date().getFullYear()} Anuj Kumar Yadav | All Certificates are ✓ Verified</p>
