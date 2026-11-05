@@ -340,8 +340,8 @@
     "platform": "AI Agent Tools & Platforms",
     "completionDate": "5 Nov 2026",
     "image": "images/DL-015.jpg",
-    "description": "My AI-field expertise in one card. I work deeply with Google AI Studio (Gemini), Lovable, Replit and GitHub — prompt design, model choice, agent workflows and shipping AI apps end to end.",
-    "overview": "Hands-on with the AI tools I use every day: Google AI Studio for Gemini models, prompts and API testing; Lovable for building and shipping full web apps from a prompt; Replit for writing, running and hosting code and agents straight in the browser; and GitHub for hosting, versioning and collaborating on agent code. Open any tool below to see what I work with.",
+    "description": "My AI-field expertise in one card. I work deeply with Google AI Studio, Lovable, Replit, GitHub, Hugging Face, LLM Arena, Grok, the ChatGPT playground, DeepSeek and R1, ElevenLabs, Claude, OpenAI, DeepLearning.AI and Sarvam AI — prompt design, model choice, agent workflows and shipping AI apps end to end.",
+    "overview": "Hands-on with the AI tools I use every day. Build and ship: Lovable for full web apps from a prompt, Replit for writing, running and hosting code and agents in the browser, GitHub for hosting and versioning agent code. Models and prompts: Google AI Studio for Gemini, the ChatGPT playground and OpenAI for GPT models, Claude, Grok, DeepSeek and DeepSeek R1, Hugging Face for open models, and LLM Arena to compare models side by side. Voice and learning: ElevenLabs for voice and audio, DeepLearning.AI courses, and Sarvam AI for Indian-language AI.",
     "skills": [
       "AI agents",
       "Prompt engineering",
@@ -349,6 +349,14 @@
       "Lovable app building",
       "Replit app building",
       "GitHub & Copilot",
+      "Hugging Face open models",
+      "LLM benchmarking (LMArena)",
+      "GPT & ChatGPT playground",
+      "Claude",
+      "Grok",
+      "DeepSeek & R1",
+      "ElevenLabs voice AI",
+      "Sarvam AI",
       "Model selection",
       "Automation"
     ],
@@ -369,6 +377,50 @@
       {
         "name": "GitHub",
         "url": "https://github.com/MrAnujBabu"
+      },
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co/"
+      },
+      {
+        "name": "LLM Arena",
+        "url": "https://lmarena.ai/"
+      },
+      {
+        "name": "Grok",
+        "url": "https://grok.com/"
+      },
+      {
+        "name": "ChatGPT Playground",
+        "url": "https://platform.openai.com/playground"
+      },
+      {
+        "name": "DeepSeek",
+        "url": "https://www.deepseek.com/"
+      },
+      {
+        "name": "DeepSeek R1",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      },
+      {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "OpenAI",
+        "url": "https://openai.com/"
+      },
+      {
+        "name": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/"
+      },
+      {
+        "name": "Sarvam AI",
+        "url": "https://sarvam.ai/"
       }
     ]
   },
