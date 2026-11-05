@@ -390,5 +390,24 @@
       "Spaced repetition"
     ],
     "status": "Verified"
+  },
+  {
+    "id": "DL-017",
+    "courseName": "Productivity & Chatbot Skills",
+    "platform": "Productivity Tools & Chatbots",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-017.jpg",
+    "description": "Productivity work and chatbot building: customized chatbots, an ordering bot, no-code backend setup, Obsidian note-taking, and working knowledge of the Brave and Firefox browsers.",
+    "overview": "I build chatbots tuned to a business — a customized chatbot for support or sales, and an ordering bot that takes orders straight through chat. I set up the backend without writing server code from scratch (no-code backend), keep every note and project in Obsidian so nothing gets lost, and know the Brave and Firefox browsers well — privacy settings, profiles, extensions and testing sites on both.",
+    "skills": [
+      "Customized chatbot",
+      "Ordering bot",
+      "No-code backend",
+      "Obsidian note-taking",
+      "Brave browser",
+      "Firefox browser",
+      "Productivity systems"
+    ],
+    "status": "Verified"
   }
 ]
