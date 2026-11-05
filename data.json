@@ -333,5 +333,43 @@
         "url": "https://winwinagency.vercel.app/"
       }
     ]
+  },
+  {
+    "id": "DL-015",
+    "courseName": "AI Field Expertise",
+    "platform": "AI Agent Tools & Platforms",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-015.jpg",
+    "description": "My AI-field expertise in one card. I work deeply with Google AI Studio (Gemini), Lovable, Dapple and GitHub — prompt design, model choice, agent workflows and shipping AI apps end to end.",
+    "overview": "Hands-on with the AI tools I use every day: Google AI Studio for Gemini models, prompts and API testing; Lovable for building and shipping full web apps from a prompt; Dapple for AI workflows that give clean, usable output without endless re-prompting; and GitHub for hosting, versioning and collaborating on agent code. Open any tool below to see what I work with.",
+    "skills": [
+      "AI agents",
+      "Prompt engineering",
+      "Google AI Studio (Gemini)",
+      "Lovable app building",
+      "Dapple AI workflows",
+      "GitHub & Copilot",
+      "Model selection",
+      "Automation"
+    ],
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com/"
+      },
+      {
+        "name": "Lovable",
+        "url": "https://lovable.dev/"
+      },
+      {
+        "name": "Dapple AI",
+        "url": "https://dappleai.com/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/MrAnujBabu"
+      }
+    ]
   }
 ]
