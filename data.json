@@ -309,5 +309,29 @@
         "url": "https://second-bonsai-4e3.notion.site/Dashboard-2337db6e270d803281ebe85f4a6db213?source=copy_link"
       }
     ]
+  },
+  {
+    "id": "DL-014",
+    "courseName": "WinWin Digital Agency",
+    "platform": "Digital Agency — Freelance Services",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-014.jpg",
+    "description": "My digital agency: buy ready-to-use digital products and Notion templates, or hire us to build websites, apps, EdTech systems and AI chatbots for education and business customers. Fixed packages, clear prices in INR — freelance work.",
+    "overview": "Win Win Digital Agency is a small studio that ships. We build websites, apps and coaching-centre (EdTech) software, make AI chatbots for schools and businesses, sell ready-to-use Notion templates, and offer software consulting and secure PDF storage. Visit the site to see the packages, buy digital products, or contact us for freelance work.",
+    "skills": [
+      "Website development",
+      "App development",
+      "EdTech systems",
+      "AI chatbots",
+      "Notion templates",
+      "Freelancing"
+    ],
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Visit WinWin Agency & buy products",
+        "url": "https://winwinagency.vercel.app/"
+      }
+    ]
   }
 ]
