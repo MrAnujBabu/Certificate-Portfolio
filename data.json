@@ -371,5 +371,24 @@
         "url": "https://github.com/MrAnujBabu"
       }
     ]
+  },
+  {
+    "id": "DL-016",
+    "courseName": "Apps & Skills",
+    "platform": "Everyday Apps & Tools",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-016.jpg",
+    "description": "The apps I actually use and know inside out: YouTube mod APK, Telegram mod APK, Document Scanner and Anki flashcards — media, messaging, scanning notes and spaced-repetition revision.",
+    "overview": "YouTube mod APK for ad-free playback and background listening; Telegram mod APK for extra download, folder and file-management features; Document Scanner to turn pages, notes and certificates into clean PDFs; Anki flashcards to memorise with spaced repetition and custom decks.",
+    "skills": [
+      "YouTube mod APK",
+      "Telegram mod APK",
+      "Document Scanner",
+      "Anki flashcards",
+      "PDF scanning",
+      "Note taking",
+      "Spaced repetition"
+    ],
+    "status": "Verified"
   }
 ]
