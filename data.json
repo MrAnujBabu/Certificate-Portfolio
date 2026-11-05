@@ -262,5 +262,29 @@
         "url": "https://sadguruclasses.vercel.app/"
       }
     ]
+  },
+  {
+    "id": "DL-012",
+    "courseName": "Obsidian Plugins — Notion Toggle",
+    "platform": "Obsidian Plugin (Open Source)",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-012.png",
+    "description": "Notion-style collapsible toggles for Obsidian, plus a recall workflow: traffic-light grading, a floating Pomodoro timer and SM-2 spaced repetition. No manual <details> or > brackets. Works on desktop and mobile.",
+    "overview": "Notion Toggle (v1.8.18) makes writing toggles in Obsidian feel like Notion: type > and space to start a toggle, Enter auto-continues to the next numbered question, pasted <details> or Notion blocks turn into proper toggles, and the code is hidden while you write. Five smart commands — Toggle, Colour (red → yellow → green), Recall, Review and Due notes — cover the daily study flow. Install via BRAT with RR-LIBRARY/obsidian-notion-toggle.",
+    "skills": [
+      "Obsidian",
+      "TypeScript",
+      "CodeMirror",
+      "Plugin development",
+      "Spaced repetition",
+      "Active recall"
+    ],
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "GitHub Repository",
+        "url": "https://github.com/RR-LIBRARY/obsidian-notion-toggle"
+      }
+    ]
   }
 ]
