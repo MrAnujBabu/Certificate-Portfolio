@@ -238,5 +238,29 @@
         "url": "https://jsrcoaching.vercel.app/"
       }
     ]
+  },
+  {
+    "id": "DL-011",
+    "courseName": "Sadguru Classes",
+    "platform": "Offline Coaching — English",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-011.png",
+    "description": "Offline coaching classes — English seekhne ka smart tareeka, padhai RC Sir ke saath. Live classes, lessons aur doubt-solving.",
+    "overview": "📚 **What this is**\n• Offline coaching for English — Learn English the Smart Way\n• Padhai RC Sir ke saath\n• Live classes, lessons aur doubt-solving\n\n🔗 **How to open**\n• Sadguru Classes — the live site",
+    "experience": "The classes are running and the site opens straight from this card.",
+    "skills": [
+      "Offline coaching",
+      "English",
+      "Live classes",
+      "Doubt solving"
+    ],
+    "duration": "Ongoing",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Sadguru Classes",
+        "url": "https://sadguruclasses.vercel.app/"
+      }
+    ]
   }
 ]
