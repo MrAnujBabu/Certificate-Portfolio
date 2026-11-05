@@ -121,7 +121,7 @@ const certSchema = z.object({
   status: z.string().max(40),
   projectLinks: z
     .array(z.object({ name: z.string().max(80), url: z.string().url().max(500) }))
-    .max(10)
+    .max(20)
     .optional(),
 });
 
