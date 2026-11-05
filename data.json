@@ -214,5 +214,29 @@
         "url": "https://jsrstudy.vercel.app/"
       }
     ]
+  },
+  {
+    "id": "DL-010",
+    "courseName": "JSR Coaching Institute",
+    "platform": "Education — Small Edtech Platform",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-010.png",
+    "description": "A small edtech platform for Class 9–12, SSC aur Railway ki taiyari — live classes, lessons and doubt-solving, all on your phone.",
+    "overview": "📚 **What this is**\n• Coaching for Class 9–12, SSC aur Railway\n• Live classes, lessons and doubt-solving on your phone\n• Built as a small edtech platform\n\n🔗 **How to open**\n• JSR Coaching Institute — the live site",
+    "experience": "The platform is live and opens straight from this card.",
+    "skills": [
+      "Edtech",
+      "Live classes",
+      "Online lessons",
+      "Doubt solving"
+    ],
+    "duration": "Ongoing",
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "JSR Coaching Institute",
+        "url": "https://jsrcoaching.vercel.app/"
+      }
+    ]
   }
 ]
