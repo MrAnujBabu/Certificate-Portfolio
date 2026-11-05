@@ -170,17 +170,16 @@
   {
     "id": "DL-008",
     "courseName": "Naveen Bharat Files — PDF & Notes Library",
-    "platform": "GitHub Storage + Telegram Bot",
+    "platform": "GitHub Storage CDN",
     "completionDate": "5 Nov 2026",
     "image": "images/DL-008.png",
-    "description": "My file storage library — PDFs, notes and images kept on GitHub and delivered through a CDN, plus a Telegram-bot powered digital library.",
-    "overview": "📚 **What this is**\n• PDFs, notes and images stored on GitHub, delivered fast through a CDN\n• Search by file type, folder or name, and copy any file link in one tap\n• A second library run by the Mr Anuj Telegram Storage bot for JSR Coaching\n\n🔗 **How to open**\n• PDF by GitHub storage — the GitHub CDN library\n• PDF storage by Telegram bot — the Telegram digital library",
-    "experience": "Both libraries are live and open straight from this card.",
+    "description": "My file storage library — PDFs, notes and images kept on GitHub and delivered fast through a CDN.",
+    "overview": "📚 **What this is**\n• PDFs, notes and images stored on GitHub, delivered fast through a CDN\n• Search by file type, folder or name, and copy any file link in one tap\n• 40+ files across 10 collections\n\n🔗 **How to open**\n• PDF by GitHub storage — the GitHub CDN library",
+    "experience": "The library is live and opens straight from this card.",
     "skills": [
       "File storage",
       "GitHub",
       "CDN delivery",
-      "Telegram bot",
       "Digital library"
     ],
     "duration": "Ongoing",
@@ -189,10 +188,30 @@
       {
         "name": "PDF by GitHub storage",
         "url": "https://github-storages-cdn.vercel.app/"
-      },
+      }
+    ]
+  },
+  {
+    "id": "DL-009",
+    "courseName": "JSR Coaching Digital Library — Telegram File Storage",
+    "platform": "Telegram Bot Storage",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-009.png",
+    "description": "Telegram-powered digital library — folders, categories and search, with files stored by the Mr Anuj Telegram Storage bot.",
+    "overview": "📚 **What this is**\n• Digital library run by the Mr Anuj Telegram Storage bot\n• Folders, categories and search to find study material fast\n• Apni padhai ki saamagri yahan paayein\n\n🔗 **How to open**\n• PDF storage by Telegram bot — the Telegram digital library",
+    "experience": "The library is live and opens straight from this card.",
+    "skills": [
+      "Telegram bot",
+      "File storage",
+      "Digital library",
+      "Search & categories"
+    ],
+    "duration": "Ongoing",
+    "status": "Verified",
+    "projectLinks": [
       {
         "name": "PDF storage by Telegram bot",
-        "url": "https://storage-naveenbharat-recording.vercel.app/"
+        "url": "https://jsrstudy.vercel.app/"
       }
     ]
   }
