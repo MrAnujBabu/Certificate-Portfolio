@@ -256,10 +256,23 @@ function CertCard({ c }: { c: Certificate }) {
         <div className="mt-auto border-t border-border pt-4">
           {c.projectLinks && c.projectLinks.length > 0 && (
             <div className="mb-2 grid gap-2" style={{ gridTemplateColumns: `repeat(${Math.min(c.projectLinks.length, 2)}, minmax(0, 1fr))` }}>
-              {c.projectLinks.map((l) => (
-                <Button key={l.url} asChild size="sm" variant="secondary">
-                  <a href={l.url} target="_blank" rel="noreferrer">
-                    <ExternalLink className="h-3.5 w-3.5" /> {l.name}
+              {c.projectLinks.map((l, i) => (
+                <Button
+                  key={l.url}
+                  asChild
+                  size="sm"
+                  variant="secondary"
+                  className={`h-auto min-w-0 whitespace-normal py-1.5${
+                    i === c.projectLinks!.length - 1 &&
+                    c.projectLinks!.length > 1 &&
+                    c.projectLinks!.length % 2 === 1
+                      ? " col-span-2"
+                      : ""
+                  }`}
+                >
+                  <a href={l.url} target="_blank" rel="noreferrer" className="w-full justify-start text-left">
+                    <ExternalLink className="h-3.5 w-3.5 shrink-0" />
+                    <span className="min-w-0 break-words">{l.name}</span>
                   </a>
                 </Button>
               ))}
@@ -290,9 +303,11 @@ function ContactSection() {
   const [message, setMessage] = useState("");
   const [company, setCompany] = useState("");
   const [busy, setBusy] = useState(false);
+  const [sent, setSent] = useState(false);
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
+    setSent(false);
     if (!name.trim() || !email.trim() || !message.trim()) {
       toast.error("Please fill in your name, email and message.");
       return;
@@ -305,6 +320,7 @@ function ContactSection() {
       setEmail("");
       setMessage("");
       setCompany("");
+      setSent(true);
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Your message could not be sent. Please try again.");
     } finally {
@@ -377,6 +393,11 @@ function ContactSection() {
           <Button type="submit" className="w-full sm:w-auto" disabled={busy}>
             {busy ? <Loader className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />} Send message
           </Button>
+          {sent && (
+            <p role="status" className="rounded-lg border border-accent/40 bg-accent/10 px-4 py-3 text-sm text-foreground">
+              ✓ Message bhej diya gaya — thanks! I'll get back to you soon.
+            </p>
+          )}
         </form>
       </div>
     </section>
