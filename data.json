@@ -286,5 +286,28 @@
         "url": "https://github.com/RR-LIBRARY/obsidian-notion-toggle"
       }
     ]
+  },
+  {
+    "id": "DL-013",
+    "courseName": "Notion Expert — Second Brain 3.0",
+    "platform": "Notion — Productivity System",
+    "completionDate": "5 Nov 2026",
+    "image": "images/DL-013.png",
+    "description": "My Second Brain 3.0: a complete Notion system with one Dashboard for notes, tasks, projects and study. Open the link and duplicate it into your own Notion to use it.",
+    "overview": "Second Brain 3.0 is a Notion workspace I built to organise everything in one place — a central Dashboard linking notes, tasks, projects and learning. It is shared publicly: anyone can open the page, copy the link, and use Notion's Duplicate button to get their own copy.",
+    "skills": [
+      "Notion",
+      "Second Brain",
+      "Productivity systems",
+      "Knowledge management",
+      "Dashboards"
+    ],
+    "status": "Verified",
+    "projectLinks": [
+      {
+        "name": "Open Second Brain Dashboard",
+        "url": "https://second-bonsai-4e3.notion.site/Dashboard-2337db6e270d803281ebe85f4a6db213?source=copy_link"
+      }
+    ]
   }
 ]
